@@ -5,6 +5,12 @@ sys.path.append('../..')
 import argparse
 import utils
 
+"""
+Student Imports
+"""
+import networkx as nx
+
+
 from student_utils import *
 """
 ======================================================================
@@ -25,7 +31,37 @@ def solve(list_of_locations, list_of_homes, starting_car_location, adjacency_mat
         A dictionary mapping drop-off location to a list of homes of TAs that got off at that particular location
         NOTE: both outputs should be in terms of indices not the names of the locations themselves
     """
-    pass
+    ind = dict(enumerate(list_of_locations))
+
+    graph = adjacency_matrix_to_graph(adjacency_matrix)
+    mst = nx.algorithms.approximation.steinertree.steiner_tree(graph, list_of_homes)
+    nodes = remove_repeats(list(nx.algorithms.traversal.depth_first_search.dfs_preorder_nodes(mst, source = ind[starting_car_location])))
+
+    find_path(nodes, graph)
+
+    return nodes, { home:[home] for home in list_of_homes }
+
+def remove_repeats(nodes):
+    """might be a bit inefficient, should fix later"""
+    have_seen = set()
+    final_nodes = []
+    for i in nodes:
+        if i not in have_seen:
+            have_seen.add(i)
+            final_nodes.add(i)
+    return final_nodes
+
+def find_path(nodes, graph):
+    """returns list of locations and dictionary for drop offs"""
+    prev_node = nodes[0]
+    for i in range(1, len(nodes)):
+        curr_node = nodes[i]
+        if curr_node in nodes[prev_node]:
+            continue
+        nodes = nodes[:i] + nx.shortest_path(graph, prev_node, curr_node)[1:-1] + nodes[i:]
+
+
+
 
 """
 ======================================================================
