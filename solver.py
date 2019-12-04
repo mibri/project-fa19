@@ -9,7 +9,8 @@ import utils
 Student Imports
 """
 import networkx as nx
-
+from networkx.algorithms import approximation
+import matplotlib as plt
 
 from student_utils import *
 """
@@ -31,15 +32,23 @@ def solve(list_of_locations, list_of_homes, starting_car_location, adjacency_mat
         A dictionary mapping drop-off location to a list of homes of TAs that got off at that particular location
         NOTE: both outputs should be in terms of indices not the names of the locations themselves
     """
-    ind = dict(enumerate(list_of_locations))
+    ind = { loc:ind for (ind, loc) in enumerate(list_of_locations) }
+    list_of_homes_ind = [ind[home] for home in list_of_homes]
 
-    graph = adjacency_matrix_to_graph(adjacency_matrix)
-    mst = nx.algorithms.approximation.steinertree.steiner_tree(graph, list_of_homes)
+    graph, message = adjacency_matrix_to_graph(adjacency_matrix)
+    mst = approximation.steinertree.steiner_tree(graph, [ind[starting_car_location]] + list_of_homes_ind)
+
+    # print("All mst nodes in homes list: " + str(all([home in list(mst.nodes) for home in list_of_homes_ind])))
+
     nodes = remove_repeats(list(nx.algorithms.traversal.depth_first_search.dfs_preorder_nodes(mst, source = ind[starting_car_location])))
+    # print("All mst nodes in remove repeats nodes list: " + str(all([home in list(nodes) for home in list_of_homes_ind])))
 
-    find_path(nodes, graph)
-
-    return nodes, { home:[home] for home in list_of_homes }
+    # print(nodes)
+    nodes = find_path(nodes, graph)
+    # print(is_valid_walk(graph, nodes))
+    # print(graph.edges)
+    # print(nodes)
+    return nodes, { home:[home] for home in list_of_homes_ind }
 
 def remove_repeats(nodes):
     """might be a bit inefficient, should fix later"""
@@ -48,17 +57,27 @@ def remove_repeats(nodes):
     for i in nodes:
         if i not in have_seen:
             have_seen.add(i)
-            final_nodes.add(i)
+            final_nodes.append(i)
     return final_nodes
 
 def find_path(nodes, graph):
     """returns list of locations and dictionary for drop offs"""
     prev_node = nodes[0]
+    final = []
+    final.append(prev_node)
     for i in range(1, len(nodes)):
         curr_node = nodes[i]
-        if curr_node in nodes[prev_node]:
+        if curr_node in graph.neighbors(prev_node):
+            final.append(curr_node)
+            prev_node = curr_node
             continue
-        nodes = nodes[:i] + nx.shortest_path(graph, prev_node, curr_node)[1:-1] + nodes[i:]
+        # nodes = nodes[:i] + nx.shortest_path(graph, prev_node, curr_node)[1:-1] + nodes[i:]
+        shortest_path = nx.shortest_path(graph, prev_node, curr_node)[1:]
+        final.extend(shortest_path)
+        prev_node = shortest_path[-1]
+    final.extend(nx.shortest_path(graph, curr_node, nodes[0])[1:])
+    # print(final)
+    return final
 
 
 
