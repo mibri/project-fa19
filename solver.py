@@ -11,6 +11,8 @@ Student Imports
 import networkx as nx
 from networkx.algorithms import approximation
 import matplotlib as plt
+import math
+import random
 
 from student_utils import *
 """
@@ -34,9 +36,11 @@ def solve(list_of_locations, list_of_homes, starting_car_location, adjacency_mat
     """
     ind = { loc:ind for (ind, loc) in enumerate(list_of_locations) }
     list_of_homes_ind = [ind[home] for home in list_of_homes]
-
+    starting_ind = ind[starting_car_location]
     graph, message = adjacency_matrix_to_graph(adjacency_matrix)
-    mst = approximation.steinertree.steiner_tree(graph, [ind[starting_car_location]] + list_of_homes_ind)
+    shortest_paths = nx.shortest_path(graph)
+
+    mst = approximation.steinertree.steiner_tree(graph, [starting_ind] + list_of_homes_ind)
 
     # print("All mst nodes in homes list: " + str(all([home in list(mst.nodes) for home in list_of_homes_ind])))
 
@@ -45,10 +49,15 @@ def solve(list_of_locations, list_of_homes, starting_car_location, adjacency_mat
 
     # print(nodes)
     nodes = find_path(nodes, graph)
-    # print(is_valid_walk(graph, nodes))
-    # print(graph.edges)
-    # print(nodes)
-    return nodes, { home:[home] for home in list_of_homes_ind }
+    print(is_valid_walk(graph, nodes))
+    #print(graph.edges)
+    print(nodes)
+
+    dropoff_dict = { home:[home] for home in list_of_homes_ind }
+
+    #nodes, dropoff_dict = simulated_annealing(nodes, graph, starting_ind, list_of_homes_ind, shortest_paths, dropoff_dict)
+
+    return nodes, dropoff_dict
 
 def remove_repeats(nodes):
     """might be a bit inefficient, should fix later"""
@@ -78,6 +87,14 @@ def find_path(nodes, graph):
     final.extend(nx.shortest_path(graph, curr_node, nodes[0])[1:])
     # print(final)
     return final
+
+def simulated_annealing(init_path, graph, starting_ind, list_of_homes_ind, shortest_paths, dropoff_dict):
+    init_cost = cost_of_solution(graph, init_path, dropoff_dict)
+    min_ind = min(list_of_homes_ind)
+    max_ind = max(list_of_homes_ind)
+    new_path = init_path[:]
+    while True: #need to change conditional
+        rand_ind = random.randint(min_ind, max_ind)
 
 
 
