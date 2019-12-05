@@ -1,5 +1,5 @@
-a0 b4 b5 a0 b6 b7 b8 b9 a0 d1 c3 c5 d1 a0 e2 a0
-12
+a0 b4 b5 a0 b6 b7 b8 b9 a0 d1 c3 c5 d1 a0
+11
 b4 b4
 b5 b5
 b6 b6
@@ -9,6 +9,5 @@ b9 b9
 c3 c3
 c5 c5 c4 c6
 a1 b0 b1 b2
-a0 b3 c2 c7 c9
-a3 c0 c1 c0
-e2 c8
+a0 b3 c0 c1 c0 c7 c9 c8
+a3 c2

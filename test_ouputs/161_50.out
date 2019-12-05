@@ -1,16 +1,20 @@
-start loc1 loc4 loc5 loc12 loc13 loc4 loc1 start loc25 start
-14
+start loc1 loc4 loc5 loc12 loc21 home3 loc21 loc12 loc13 loc14 loc15 loc19 loc18 home7 loc18 loc19 loc15 loc14 loc23 home15 loc23 loc14 loc13 loc4 loc1 start loc17 home10 loc17 start loc25 home18 loc25 start
+18
+home3 home3
+home7 home7
+home10 home10
+home15 home15
+home18 home18
 loc5 home12
 loc21 home22 home13
-loc12 home3 home20
+loc12 home20
 loc18 home11
-loc19 home7 home6 home23
-loc15 home24
-loc14 home5 home15
+loc19 home6 home23 home24
+loc15 home5
 loc23 home14
-loc13 home4 home21
+loc14 home4
+loc13 home21
 loc4 home2 home19
 loc1 home8 home1
 loc17 home9
-start home10
-loc25 home16 home17 home18
+loc25 home16 home17

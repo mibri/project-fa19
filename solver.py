@@ -54,10 +54,10 @@ def solve(list_of_locations, list_of_homes, starting_car_location, adjacency_mat
     # print(nodes)
 
     dropoff_dict = { home:[home] for home in list_of_homes_ind }
-    print(dropoff_dict)
-    print(nodes)
-    print(is_valid_walk(graph, nodes))
-    print("\n")
+    ##print(dropoff_dict)
+    ##print(nodes)
+    ##print(is_valid_walk(graph, nodes))
+    ##print("\n")
     #nodes, dropoff_dict = simulated_annealing(nodes, graph, starting_ind, list_of_homes_ind, shortest_paths, dropoff_dict)
     curr_palindrome = find_next_palindrome_new(nodes, list_of_homes_ind, dropoff_dict)
     while (curr_palindrome[2]):
@@ -67,7 +67,7 @@ def solve(list_of_locations, list_of_homes, starting_car_location, adjacency_mat
         #print(nodes[start_ind+1:end_ind])
         homes_inside_palindrome = [node for node in nodes[start_ind+1:end_ind] if node in list_of_homes_ind]
         #if len(homes_inside_palindrome) == 1:
-        print(len(homes_inside_palindrome), homes_inside_palindrome)
+        ##print(len(homes_inside_palindrome), homes_inside_palindrome)
         # num_homes = 0
         #         for node in nodes[start_ind+1:end_ind]:
         #             num_homes += len(dropoff_dict[node])
@@ -84,10 +84,10 @@ def solve(list_of_locations, list_of_homes, starting_car_location, adjacency_mat
         dropoff_dict[nodes[start_ind]] = x + homes_inside_palindrome
 
         nodes = nodes[:start_ind] + nodes[end_ind:]
-        print(dropoff_dict)
-        print(nodes)
-        print(is_valid_walk(graph, nodes))
-        print("\n")
+        ##print(dropoff_dict)
+        ##print(nodes)
+        ##print(is_valid_walk(graph, nodes))
+        ##print("\n")
 
         curr_palindrome = find_next_palindrome_new(nodes, list_of_homes_ind, dropoff_dict)
 
@@ -150,8 +150,8 @@ def find_next_palindrome_new(nodes, list_of_homes_ind, dropoff_dict):
     end_ind = -1
     for i in range(1, len(nodes)-1):
         for j in range(1, i+1):
-            if i+j+1 == len(nodes):
-                break
+            # if i+j+1 == len(nodes):
+            #     break
             cur = nodes[i-j:i+j+1]
             reverse = cur[::-1]
 
@@ -169,8 +169,11 @@ def find_next_palindrome_new(nodes, list_of_homes_ind, dropoff_dict):
                 # if num_homes == 1:
                 #     break
                 continue
+            # another condition to watch out is when [52, 50, 53, 58, 74, 58, 53, 50, 54]
+            # we have to drive to 58 to drop off two ppl but there's not accoutning for 58 74 58
             else:
                 homes_inside_palindrome = [node for node in nodes[start_ind+1:end_ind] if node in list_of_homes_ind]
+                
                 num_homes = 0
                 for node in nodes[start_ind+1:end_ind]:
                     if node in dropoff_dict:

@@ -1,20 +1,34 @@
-S 1M 1Aa 1Ab 1Af 1M 1Ba 1Bf 1M S 2M 2Aa 2Ab 2Af 2M 2Ba 2Bf 2M S
-18
+S 1M 1Aa 1Ab 1Af 1Ag 1Aj 1Ag 1Af 1M 1Ba 1Bf 1M 1Ca 1Cb 1Cc 1Cd 1Cc 1Cb 1Ca 1M 1Da 1De 1Da 1M 1Ea 1Ec 1Ei 1Ec 1Ea 1M S 2M 2Aa 2Ab 2Af 2Ag 2Aj 2Ag 2Af 2M 2Ba 2Bf 2M 2Ca 2Cb 2Cc 2Cd 2Cc 2Cb 2Ca 2M 2Da 2De 2Da 2M 2Ea 2Ec 2Ei 2Ec 2Ea 2M S
+32
 1Aa 1Aa
 1Ab 1Ab 1Ac 1Ad 1Ae
+1Ag 1Ag 1Ah 1Ai
+1Aj 1Aj
 1Bf 1Bf 1Bi 1Bj
+1Ca 1Ca
+1Cb 1Cb
+1Cc 1Cc
+1Cd 1Cd
+1De 1De
+1Ei 1Ei
 2Aa 2Aa
 2Ab 2Ab 2Ac 2Ad 2Ae
+2Ag 2Ag 2Ah 2Ai
+2Aj 2Aj
 2Bf 2Bf 2Bi 2Bj
-1Af 1Ag 1Aj 1Ag
+2Ca 2Ca
+2Cb 2Cb
+2Cc 2Cc
+2Cd 2Cd
+2De 2De
+2Ei 2Ei
 1Ba 1Bb
-1M 1Ca 1Cb 1Cc 1Cd 1Cc 1Cb 1Ca 1De 1Ee 1Fe
 1Da 1Dd
 1Ec 1Eh
-1Ea 1Ei 1Ek
-2Af 2Ag 2Aj 2Ag
+1Ea 1Ek 1Ee
+1M 1Fe
 2Ba 2Bb
-2M 2Ca 2Cb 2Cc 2Cd 2Cc 2Cb 2Ca 2De 2Ee 2Fe
 2Da 2Dd
 2Ec 2Eh
-2Ea 2Ei 2Ek
+2Ea 2Ek 2Ee
+2M 2Fe
