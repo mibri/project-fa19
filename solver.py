@@ -79,11 +79,14 @@ def solve(list_of_locations, list_of_homes, starting_car_location, adjacency_mat
         
         x = []
         if nodes[start_ind] in dropoff_dict:
+            ###print(dropoff_dict[nodes[start_ind]])
             x = dropoff_dict[nodes[start_ind]]
 
         dropoff_dict[nodes[start_ind]] = x + homes_inside_palindrome
-
+        ###print(dropoff_dict[nodes[start_ind]])
+        ###print(nodes[start_ind+1:end_ind])
         nodes = nodes[:start_ind] + nodes[end_ind:]
+
         ##print(dropoff_dict)
         ##print(nodes)
         ##print(is_valid_walk(graph, nodes))
@@ -156,7 +159,7 @@ def find_next_palindrome_new(nodes, list_of_homes_ind, dropoff_dict):
             reverse = cur[::-1]
 
             if cur == reverse:
-            
+                old = [start_ind, end_ind, result != []]
                 result = cur
                 start_ind = i-j
                 end_ind = i+j
@@ -168,6 +171,9 @@ def find_next_palindrome_new(nodes, list_of_homes_ind, dropoff_dict):
                 homes_inside_palindrome = [node for node in nodes[start_ind+1:end_ind] if node in list_of_homes_ind]
                 # if num_homes == 1:
                 #     break
+                if num_homes > 1:
+                    return old
+
                 continue
             # another condition to watch out is when [52, 50, 53, 58, 74, 58, 53, 50, 54]
             # we have to drive to 58 to drop off two ppl but there's not accoutning for 58 74 58

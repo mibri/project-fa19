@@ -1,10 +1,10 @@
-LesLilas AinBessem Aracuai Zhaodong Grajau Escada Kairouan Johnston Wenchi Hangu Daokou Twante Rivas Sevlievo SpanishTown Sosnovka HaciendaLaCalera KotRadhaKishan Izhevsk SpanishTown Sosnovka Shieli Yafo Vaniyambadi NorthAurora Bhatkal Battambang AinArnat AlBajur Purnia Rhondda Johnston Sobue Acireale Baramula Mabopane UlanBator Razam FortWorth Skelmersdale Tabou EastLongmeadow Gorgan Shimofurano Arzamas Langenhorn Erba NahiyatashShinafiyah SaintCyrlEcole SantanadoLivramento CapimGrosso Alnavar Haora Purnia Mocoa EastLongmeadow Wangon Karlsfeld SouthSaintPaul Kemise Shurugwi Banting Fontem Ibirataia SouthSaintPaul Angleton UlanBator BlueIsland MineralnyeVody TagbilaranCity Hirosaki PriegodeCordoba Turek MadinatHamad BlueIsland Lloydminster SpanishTown Kineshma Gunzenhausen Khulm Anjarah Wachtberg Korsakov SantanadoLivramento Kotka NoblePark Acarau Akcaabat Acarau NoblePark SanJuandelaMaguana Gunzenhausen Wenchi Andrychow GuaMusang Pinner Turek Tangzhai PortoVelho FetestiGara Embu WestIslip Pinner Nagar FetestiGara Garbsen BlueIsland ChalcodeDiazCovarrub Kambove Braila Morwa Ortaca Itororo Shchekino Espiye GongdanglegiKulon Bury Pezinok Belalcazar SenaMadureira Licata Escada Pozzuoli Haripur Langenhorn AinBessem Prostejov Johnston Butuan Kaifeng Kondrovo SenadorPompeu Kikuchi Sasovo LesLilas
-89
+LesLilas AinBessem Aracuai Zhaodong Grajau Escada Kairouan Johnston Wenchi Hangu Daokou Twante Rivas Sevlievo SpanishTown Sosnovka HaciendaLaCalera KotRadhaKishan Izhevsk SpanishTown Sosnovka Shieli Yafo Vaniyambadi NorthAurora Bhatkal Battambang AinArnat AlBajur Purnia Rhondda Johnston Sobue Acireale Baramula Mabopane UlanBator Razam FortWorth Skelmersdale Tabou EastLongmeadow Gorgan Shimofurano Arzamas Langenhorn Erba NahiyatashShinafiyah SaintCyrlEcole SantanadoLivramento CapimGrosso Alnavar Haora Purnia Mocoa EastLongmeadow Wangon Karlsfeld SouthSaintPaul Kemise Shurugwi Banting Fontem Ibirataia SouthSaintPaul Angleton UlanBator BlueIsland MineralnyeVody TagbilaranCity Hirosaki PriegodeCordoba Turek MadinatHamad BlueIsland Lloydminster SpanishTown Kineshma Gunzenhausen Khulm Anjarah Wachtberg Korsakov SantanadoLivramento Kotka NoblePark Acarau NoblePark SanJuandelaMaguana Gunzenhausen Wenchi Andrychow GuaMusang Pinner Turek Tangzhai PortoVelho FetestiGara Embu WestIslip Pinner Nagar FetestiGara Garbsen BlueIsland ChalcodeDiazCovarrub Kambove MonteAlegre Kambove Braila Morwa Ortaca Itororo Shchekino AshtonunderLyne Shchekino Espiye GongdanglegiKulon Bury PriegodeCordoba Bury Pezinok Belalcazar Oerlinghausen Belalcazar SenaMadureira Licata Escada Pozzuoli VillaPauladeSarmient Pozzuoli Haripur Langenhorn AinBessem Prostejov Johnston Butuan Kaifeng Kondrovo SenadorPompeu Kikuchi Sasovo LesLilas
+93
 Khulm Khulm
 Kemise Kemise
 Hirosaki Hirosaki
 SanJuandelaMaguana SanJuandelaMaguana
-Shchekino Shchekino AshtonunderLyne
+Shchekino Shchekino
 Braila Braila
 SenaMadureira SenaMadureira
 Shimofurano Shimofurano
@@ -19,6 +19,7 @@ Garbsen Garbsen
 Sobue Sobue
 Sosnovka Sosnovka
 Rivas Rivas
+PriegodeCordoba PriegodeCordoba
 Yafo Yafo
 Haora Haora
 Haripur Haripur
@@ -29,7 +30,7 @@ SpanishTown SpanishTown
 Johnston Johnston
 Nagar Nagar
 Turek Turek
-Belalcazar Belalcazar Oerlinghausen
+Belalcazar Belalcazar
 Espiye Espiye
 SenadorPompeu SenadorPompeu
 KotRadhaKishan KotRadhaKishan
@@ -37,13 +38,12 @@ BlueIsland BlueIsland
 MadinatHamad MadinatHamad
 Butuan Butuan
 Angleton Angleton
-Kambove Kambove MonteAlegre
+Kambove Kambove
 Mocoa Mocoa
 Kaifeng Kaifeng
 Zhaodong Zhaodong
 WestIslip WestIslip
 SaintCyrlEcole SaintCyrlEcole
-Akcaabat Akcaabat
 Anjarah Anjarah
 Baramula Baramula Fuxin Sorada
 Acireale Acireale Ontinyent
@@ -61,15 +61,17 @@ Aracuai Aracuai
 Shieli Shieli
 Prostejov Prostejov
 NahiyatashShinafiyah NahiyatashShinafiyah
-Bury Bury PriegodeCordoba
+Bury Bury
+VillaPauladeSarmient VillaPauladeSarmient
 MineralnyeVody MineralnyeVody
 Izhevsk Izhevsk
 Kotka Kotka
+Oerlinghausen Oerlinghausen
 FetestiGara FetestiGara
-Pozzuoli Pozzuoli VillaPauladeSarmient
+Pozzuoli Pozzuoli
 Shurugwi Shurugwi
 Kineshma Kineshma
-Acarau Acarau
+Acarau Acarau Akcaabat
 GuaMusang GuaMusang
 Pezinok Pezinok
 Gorgan Gorgan Manacapuru
@@ -82,9 +84,11 @@ Embu Embu
 Korsakov Korsakov
 Wangon Wangon
 Battambang Battambang
+MonteAlegre MonteAlegre
 Wenchi Wenchi
 PortoVelho PortoVelho
 Ortaca Ortaca
+AshtonunderLyne AshtonunderLyne
 Skelmersdale Skelmersdale
 FortWorth FortWorth Langenhorn
 SantanadoLivramento SantanadoLivramento

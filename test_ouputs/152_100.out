@@ -1,17 +1,19 @@
-SaintPaul SanJose SanDiego ChulaVista Charlotte Phoenix Durham SantaAna Pittsburgh Philadelphia Oakland Wichita Baltimore Albuquerque FortWayne Anchorage Cleveland Honolulu BatonRouge FortWorth LongBeach Baltimore Mesa Indianapolis Mesa Baltimore LongBeach Dallas Scottsdale Honolulu Memphis Honolulu Scottsdale Newark FortWayne OklahomaCity Cincinnati StPetersburg Milwaukee Columbus Glendale Hialeah OklahomaCity ElPaso Houston VirginiaBeach StPetersburg Lubbock Austin JerseyCity Denver Detroit Tucson Raleigh Boston Orlando Lexington Fresno Plano LosAngeles ElPaso Austin Aurora Austin ElPaso Chandler NewOrleans KansasCity Fresno Spokane Arlington Charlotte Lincoln Minneapolis Bakersfield OklahomaCity Toledo Atlanta Omaha Miami Madison SanJose SaintPaul
-46
+SaintPaul SanJose SanDiego ChulaVista Charlotte Phoenix Durham SantaAna Pittsburgh Philadelphia Oakland Wichita Baltimore Albuquerque FortWayne Anchorage Cleveland Honolulu BatonRouge FortWorth LongBeach Baltimore LongBeach Dallas Scottsdale Honolulu Memphis Honolulu Scottsdale Newark FortWayne OklahomaCity Cincinnati StPetersburg Milwaukee Columbus Glendale Hialeah OklahomaCity ElPaso Houston Stockton Houston VirginiaBeach StPetersburg Henderson StPetersburg Lubbock Austin JerseyCity Denver Detroit Tucson Raleigh Boston Orlando Lexington Fresno Plano LosAngeles ElPaso Austin SanAntonio Austin Aurora Austin ElPaso Chandler NewOrleans KansasCity Fresno Chesapeake Fresno Spokane Arlington Charlotte Lincoln Minneapolis Bakersfield OklahomaCity Toledo Atlanta Omaha Miami Laredo Miami Madison SanJose SaintPaul
+48
 Newark Newark
 Plano Plano
 Scottsdale Scottsdale
 Denver Denver
 Honolulu Honolulu
+SanAntonio SanAntonio
 Durham Durham
 Lexington Lexington
 FortWorth FortWorth
-Austin Austin SanAntonio
+Henderson Henderson
+Austin Austin
 FortWayne FortWayne
-Baltimore Baltimore
-Houston Houston Stockton
+Baltimore Baltimore Indianapolis
+Houston Houston
 Glendale Glendale
 Pittsburgh Pittsburgh
 SanDiego SanDiego Tampa
@@ -25,14 +27,16 @@ Charlotte Charlotte
 Spokane Spokane
 Milwaukee Milwaukee
 Atlanta Atlanta
+Laredo Laredo
+Chesapeake Chesapeake
 Dallas Dallas
+Stockton Stockton
 Columbus Columbus
 Memphis Memphis
 JerseyCity JerseyCity
 Phoenix Phoenix
-StPetersburg StPetersburg Henderson
+StPetersburg StPetersburg
 Chandler Chandler
-Indianapolis Indianapolis
 Lubbock Lubbock
 Bakersfield Bakersfield
 Anchorage Anchorage
@@ -44,5 +48,3 @@ Aurora Aurora
 Madison Madison
 Cincinnati Cincinnati
 Oakland WinstonSalem
-Fresno Chesapeake
-Miami Laredo

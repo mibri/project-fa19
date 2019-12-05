@@ -1,21 +1,27 @@
-Hayward Shreveport Hartford Downey Topeka Henderson Vancouver GrandRapids SaintPaul Duluth Fullerton SantaClara VeroBeach PalmBay CorpusChristi StPaul CathedralCity NewBedford OverlandPark Anchorage Utica Norwich SanBuenaventura NewportNews Marina Kissimmee Huntsville ThousandOaks PortSaintLucie Olympia Downey Huntsville CapeCoral Seaside Elkhart Modesto Worcester Kissimmee Bethlehem Orem NewBedford SantaAna Cincinnati SimiValley Aberdeen Sacramento Brighton Torrance Albuquerque Hialeah Albuquerque Torrance RichmondCounty PortArthur Racine Melbourne Lubbock Bryan Birmingham Pittsburgh Boulder Hemet PuntaGorda HavredeGrace PuntaGorda Hemet SanBuenaventura Anaheim Eugene Boise Eugene Anaheim Columbus Visalia Carrollton SiouxFalls RichmondCounty Torrance Fresno SaintPetersburg Trenton Louisville Bloomington LasVegas Nashua Tyler Arvada Scranton Sarasota HuntingtonBeach NewYorkCity Omaha Marysville Layton Bryan Lubbock CostaMesa Bakersfield SouthBend Youngstown Barnstable ThousandOaks Waterbury PembrokePines SanBernardino Pueblo Lubbock CostaMesa Plano Hagerstown Detroit Duluth GreenBay Lafayette Waterbury Victorville ElPaso SanAntonio JohnsonCity HavredeGrace York Champaign SterlingHeights Springfield Spartanburg LakeCharles LasCruces York Reno Ogden Norman Downey Salem Deltona Tucson NewYork Monroe Escondido Independence RoundLakeBeach Lorain Scottsdale Omaha NewYorkCity Lincoln Sacramento StLouis DesMoines CorpusChristi Hampton ElPaso Burlington SouthBend NorthLasVegas Hartford Shreveport Hayward
-87
+Hayward Shreveport Hartford Downey Topeka Henderson Vancouver GrandRapids SaintPaul Duluth Fullerton SantaClara VeroBeach PalmBay CorpusChristi StPaul CathedralCity NewBedford OverlandPark Anchorage Utica Norwich SanBuenaventura NewportNews Marina Kissimmee Huntsville ThousandOaks PortSaintLucie Olympia Downey Huntsville CapeCoral Seaside Elkhart Modesto Worcester Kissimmee Bethlehem Orem NewBedford SantaAna Cincinnati SimiValley Aberdeen Sacramento Brighton Torrance Albuquerque Torrance RichmondCounty PortArthur Lacey PortArthur Racine Melbourne Lubbock Bryan Birmingham Pittsburgh Boulder Hemet PuntaGorda HavredeGrace PuntaGorda Hemet Mobile Hemet SanBuenaventura Anaheim Eugene Boise Eugene Anaheim Columbus Visalia Carrollton SiouxFalls RichmondCounty Torrance Fresno SaintPetersburg Trenton Louisville Bloomington LasVegas Stamford LasVegas Nashua Tyler Arvada Scranton Sarasota HuntingtonBeach NewYorkCity Omaha Marysville Layton Bryan Lubbock CostaMesa Bakersfield SouthBend Youngstown Barnstable ThousandOaks Waterbury PembrokePines Racine PembrokePines SanBernardino Pueblo Lubbock CostaMesa Plano Hagerstown Detroit Duluth GreenBay Laredo GreenBay Lafayette Waterbury Newburgh Waterbury Victorville ElPaso SanAntonio JohnsonCity HavredeGrace York NewYorkCity York Champaign Charlotte Champaign SterlingHeights Springfield Harlingen Springfield Spartanburg LakeCharles LasCruces York Reno Ogden Norman Downey Salem Deltona Tucson NewYork Monroe Escondido Mesquite Escondido Independence Cincinnati Independence RoundLakeBeach Kalamazoo RoundLakeBeach Lorain Scottsdale Omaha NewYorkCity Lincoln Sacramento StLouis DesMoines CorpusChristi Hampton Newark Hampton ElPaso Burlington SouthBend NorthLasVegas Hartford Shreveport Hayward
+93
 PuntaGorda PuntaGorda
 Tyler Tyler
+Cincinnati Cincinnati
 ThousandOaks ThousandOaks
 Norwich Norwich
 PalmBay PalmBay Hagerstown
 Tucson Tucson
 Utica Utica
 Pueblo Pueblo
-Albuquerque Albuquerque
+Albuquerque Albuquerque Hialeah
+Laredo Laredo
 NewportNews NewportNews
 Barnstable Barnstable
 JohnsonCity JohnsonCity
 Eugene Eugene
+Racine Racine
 Nashua Nashua
-RoundLakeBeach RoundLakeBeach Kalamazoo
+RoundLakeBeach RoundLakeBeach
+Harlingen Harlingen
+Newburgh Newburgh
 HavredeGrace HavredeGrace
+Charlotte Charlotte
 OverlandPark OverlandPark Greenville
 Omaha Omaha
 Topeka Topeka
@@ -24,10 +30,11 @@ Deltona Deltona
 Anchorage Anchorage
 Marina Marina Frederick
 Salem Salem
-LasVegas LasVegas Stamford
+LasVegas LasVegas
 Downey Downey
 Birmingham Birmingham
 SanBuenaventura SanBuenaventura
+Mesquite Mesquite
 Lubbock Lubbock
 CorpusChristi CorpusChristi
 Layton Layton
@@ -38,11 +45,12 @@ StLouis StLouis
 GrandRapids GrandRapids
 Boise Boise
 Arvada Arvada
-Hemet Hemet Mobile
+Hemet Hemet
 Scranton Scranton
 Fresno Fresno
-Waterbury Waterbury Newburgh
+Waterbury Waterbury
 LakeCharles LakeCharles
+Stamford Stamford
 Olympia Olympia
 RichmondCounty RichmondCounty
 Duluth Duluth
@@ -50,40 +58,38 @@ Modesto Modesto
 Henderson Henderson
 HuntingtonBeach HuntingtonBeach
 Huntsville Huntsville
+Lacey Lacey
 Burlington Burlington
 Columbus Columbus
 Vancouver Vancouver
 Detroit Detroit
-Hialeah Hialeah
 CathedralCity CathedralCity
+NewYorkCity NewYorkCity
 Marysville Marysville
-GreenBay GreenBay Laredo
+GreenBay GreenBay
 Bakersfield Bakersfield
 Monroe Monroe
 Louisville Louisville
 ElPaso ElPaso
 SantaClara SantaClara
 Kissimmee Kissimmee
+Newark Newark
 Torrance Torrance
 Hartford Hartford
 Plano Plano
+Kalamazoo Kalamazoo
 NewBedford NewBedford
 SiouxFalls SiouxFalls
 Elkhart Elkhart McAllen
-Champaign Champaign Charlotte
+Champaign Champaign
 Anaheim Anaheim
 SaintPaul SaintPaul
-York York NewYorkCity
+York York
 Spartanburg Spartanburg
 Scottsdale Scottsdale
 Aberdeen Aberdeen
+Mobile Mobile
 Melbourne Melbourne
 Ogden Ogden
 StPaul Savannah
 Brighton Oxnard
-PortArthur Lacey
-PembrokePines Racine
-Springfield Harlingen
-Escondido Mesquite
-Independence Cincinnati
-Hampton Newark
