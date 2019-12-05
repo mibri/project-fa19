@@ -1,6 +1,6 @@
-FortCollins Akron Elizabeth FortSmith Arvada Davenport Albuquerque Erie Aberdeen Fargo BonitaSprings Baltimore FortWaltonBeach Amarillo Alexandria Aberdeen Hickory Inglewood Lubbock Louisville Leominster Manchester Atlanta Alexandria Bakersfield AnnArbor Elkhart Bremerton Allentown AppleValley Abilene Detroit Lacey Brighton Fremont Irving Cary Grayslake Henderson BoiseCity Eugene LittleRock Greensboro Abilene Champaign Harrisburg Fontana Aberdeen Irvine Aberdeen Harlingen Anaheim Kennewick LasVegas Austin Cleveland Akron Layton Bloomington DesMoines Chandler ColoradoSprings Albany Denver Albany FortWayne Evansville Clearwater Chicago Danbury Fairfield Joliet LasCruces Akron Lancaster Anchorage Akron Lorain CedarRapids Akron Clarksville Dallas Bradenton Jefferson Burbank Indianapolis Garland GrandRapids Aberdeen Marysville Aberdeen Barnstable Brownsville Fayetteville Appleton Alexandria Gilbert Augusta Houston Beaumont Bethlehem DalyCity Fresno Kalamazoo Aberdeen Jacksonville CollegeStation Boise ElPaso Laredo Carrollton Berkeley CapeCoral Aberdeen DavidsonCounty Aberdeen ElMonte Frederick Hampton Lafayette Lakewood Aberdeen Bellevue Independence Aberdeen Lakeland Knoxville Hemet Hollywood FortCollins
-100
-Aberdeen Aberdeen
+FortCollins Akron Elizabeth FortSmith Arvada Davenport Albuquerque Erie Aberdeen Fargo BonitaSprings Baltimore FortWaltonBeach Amarillo Alexandria Aberdeen Hickory Inglewood Lubbock Louisville Leominster Manchester Atlanta Alexandria Bakersfield AnnArbor Elkhart Bremerton Allentown AppleValley Abilene Detroit Lacey Brighton Fremont Irving Cary Grayslake Henderson BoiseCity Eugene LittleRock Greensboro Abilene Champaign Harrisburg Fontana Aberdeen Harlingen Anaheim Kennewick LasVegas Austin Cleveland Akron Layton Bloomington DesMoines Chandler ColoradoSprings Albany FortWayne Evansville Clearwater Chicago Danbury Fairfield Joliet LasCruces Akron Lancaster Anchorage Akron Lorain CedarRapids Akron Clarksville Dallas Bradenton Jefferson Burbank Indianapolis Garland GrandRapids Aberdeen Barnstable Brownsville Fayetteville Appleton Alexandria Gilbert Augusta Houston Beaumont Bethlehem DalyCity Fresno Kalamazoo Aberdeen Jacksonville CollegeStation Boise ElPaso Laredo Carrollton Berkeley CapeCoral Aberdeen ElMonte Frederick Hampton Lafayette Lakewood Aberdeen Bellevue Independence Aberdeen Lakeland Knoxville Hemet Hollywood FortCollins
+98
+Aberdeen Aberdeen Irvine DavidsonCounty
 Abilene Abilene
 Akron Akron
 Albuquerque Albuquerque
@@ -44,8 +44,6 @@ ColoradoSprings ColoradoSprings
 Dallas Dallas
 DalyCity DalyCity
 Danbury Danbury
-DavidsonCounty DavidsonCounty
-Denver Denver
 DesMoines DesMoines
 Detroit Detroit
 ElMonte ElMonte
@@ -79,7 +77,6 @@ Houston Houston
 Independence Independence
 Indianapolis Indianapolis
 Inglewood Inglewood
-Irvine Irvine
 Irving Irving
 Jacksonville Jacksonville
 Jefferson Jefferson
@@ -100,3 +97,4 @@ Lorain Lorain
 Louisville Louisville
 Lubbock Lubbock
 Manchester Manchester
+Albany Denver

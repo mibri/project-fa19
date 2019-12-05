@@ -1,78 +1,65 @@
-Chattanooga ElPaso Dayton Plano Austin DesMoines Cincinnati Albuquerque LosAngeles Albuquerque Waco LongBeach GrandPrairie Minneapolis WinstonSalem Knoxville Berkeley Springfield Spokane SanJose JerseyCity Paterson Oakland FortLauderdale NewportNews Orlando NewportNews Alexandria Detroit Vancouver Detroit BatonRouge Bakersfield Oceanside Bakersfield Salinas GardenGrove Madison Murfreesboro Charlotte Ontario OverlandPark Scottsdale Riverside Indianapolis Phoenix LittleRock Fremont Honolulu SanFrancisco Honolulu Portland SanBernardino SanJose SanBernardino Tucson Fontana OklahomaCity Chattanooga Boise SanBernardino Joliet Madison Lincoln OklahomaCity SantaAna Chicago Irvine Norfolk Raleigh Hayward Jacksonville Hayward SantaClarita Augusta Akron RanchoCucamonga Newark NewOrleans Washington SaintPaul Washington SanJose Syracuse Houston Denton Houston Huntsville Tacoma Oxnard Phoenix LittleRock CapeCoral LittleRock Shreveport Detroit Fayetteville Aurora Baltimore Lexington Aurora Orange Henderson Toledo Atlanta Chicago Naperville Garland Roseville MorenoValley Anaheim NewYork Anaheim ChulaVista Dallas Detroit Tallahassee Detroit Frisco KansasCity ColoradoSprings DesMoines Richmond Mesa Miami FortLauderdale SanDiego FortLauderdale Savannah ElkGrove McAllen Newark Tucson Tempe Tucson Fontana Surprise Anchorage Midland Dayton Plano PortStLucie Plano Fresno GrandRapids Buffalo Pomona Clarksville Portland Worcester NewYork Yonkers Lubbock Louisville Lubbock Corona FortWorth VirginiaBeach Glendale Memphis Seattle Jackson Brownsville Boston Salem Ontario OverlandPark Olathe OverlandPark Yonkers Durham MorenoValley Chattanooga Cleveland SanAntonio Memphis Wichita Irving Nashville Chattanooga
-100
+Chattanooga ElPaso Dayton Plano Austin DesMoines Cincinnati Albuquerque Waco LongBeach GrandPrairie Minneapolis WinstonSalem Knoxville Berkeley Springfield Spokane SanJose JerseyCity Paterson Oakland FortLauderdale NewportNews Alexandria Detroit BatonRouge Bakersfield Salinas GardenGrove Madison Murfreesboro Charlotte Ontario OverlandPark Scottsdale Riverside Indianapolis Phoenix LittleRock Fremont Honolulu Portland SanBernardino Tucson Fontana OklahomaCity Chattanooga Boise SanBernardino Joliet Madison Lincoln OklahomaCity SantaAna Chicago Irvine Norfolk Raleigh Hayward SantaClarita Augusta Akron RanchoCucamonga Newark NewOrleans Washington SanJose Syracuse Houston Huntsville Tacoma Oxnard Phoenix LittleRock Shreveport Detroit Fayetteville Aurora Baltimore Lexington Aurora Orange Henderson Toledo Atlanta Chicago Naperville Garland Roseville MorenoValley Anaheim ChulaVista Dallas Detroit Frisco KansasCity ColoradoSprings DesMoines Richmond Mesa Miami FortLauderdale Savannah ElkGrove McAllen Newark Tucson Fontana Surprise Anchorage Midland Dayton Plano Fresno GrandRapids Buffalo Pomona Clarksville Portland Worcester NewYork Yonkers Lubbock Corona FortWorth VirginiaBeach Glendale Memphis Seattle Jackson Brownsville Boston Salem Ontario OverlandPark Yonkers Durham MorenoValley Chattanooga Cleveland SanAntonio Memphis Wichita Irving Nashville Chattanooga
+88
 Yonkers Yonkers
 Alexandria Alexandria
 Joliet Joliet
-Orlando Orlando
 Lincoln Lincoln
 Worcester Worcester
-LittleRock LittleRock
+LittleRock LittleRock CapeCoral
 GardenGrove GardenGrove
 Aurora Aurora
 DesMoines DesMoines
 Surprise Surprise
 Phoenix Phoenix
 Knoxville Knoxville
-Jacksonville Jacksonville
-Oceanside Oceanside
 Baltimore Baltimore
 Henderson Henderson
 Fremont Fremont
 Riverside Riverside
 Memphis Memphis
-SanBernardino SanBernardino
+SanBernardino SanBernardino SanJose
 Tacoma Tacoma
 Wichita Wichita
 Paterson Paterson
-Washington Washington
+Washington Washington SaintPaul
 Ontario Ontario
-Bakersfield Bakersfield
+Bakersfield Bakersfield Oceanside
 SantaClarita SantaClarita
 Cleveland Cleveland
 Brownsville Brownsville
 McAllen McAllen
 Charlotte Charlotte
 Corona Corona
-Honolulu Honolulu
+Honolulu Honolulu SanFrancisco
 Springfield Springfield
-Denton Denton
-Tempe Tempe
 Spokane Spokane
 Glendale Glendale
 Shreveport Shreveport
 GrandPrairie GrandPrairie
 Irvine Irvine
-NewportNews NewportNews
+NewportNews NewportNews Orlando
 Lexington Lexington
-Olathe Olathe
-SanFrancisco SanFrancisco
 Scottsdale Scottsdale
-Vancouver Vancouver
 Indianapolis Indianapolis
 Murfreesboro Murfreesboro
 Anchorage Anchorage
 FortWorth FortWorth
 Austin Austin
 Raleigh Raleigh
-Anaheim Anaheim
-SanJose SanJose
+Anaheim Anaheim NewYork
 Fayetteville Fayetteville
 Cincinnati Cincinnati
 Oxnard Oxnard
 Durham Durham
 ChulaVista ChulaVista
 SantaAna SantaAna
-SaintPaul SaintPaul
-FortLauderdale FortLauderdale
+FortLauderdale FortLauderdale SanDiego
 ElPaso ElPaso
 Syracuse Syracuse
 Madison Madison
 GrandRapids GrandRapids
-NewYork NewYork
 Savannah Savannah
-CapeCoral CapeCoral
-Louisville Louisville
-Hayward Hayward
+Hayward Hayward Jacksonville
 Buffalo Buffalo
 BatonRouge BatonRouge
 Boston Boston
@@ -82,14 +69,11 @@ Chicago Chicago
 SanAntonio SanAntonio
 KansasCity KansasCity
 Richmond Richmond
-Tallahassee Tallahassee
 Salem Salem
 Midland Midland
-LosAngeles LosAngeles
 Fontana Fontana
 Berkeley Berkeley
-PortStLucie PortStLucie
-Plano Plano
+Plano Plano PortStLucie
 Orange Orange
 Newark Newark
 Toledo Toledo
@@ -97,6 +81,10 @@ Naperville Naperville
 Jackson Jackson
 Akron Akron
 Pomona Pomona
-Lubbock Lubbock
+Lubbock Lubbock Louisville
 Frisco Frisco
-SanDiego SanDiego
+Albuquerque LosAngeles
+Detroit Vancouver Tallahassee
+Houston Denton
+Tucson Tempe
+OverlandPark Olathe

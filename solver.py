@@ -49,14 +49,37 @@ def solve(list_of_locations, list_of_homes, starting_car_location, adjacency_mat
 
     # print(nodes)
     nodes = find_path(nodes, graph)
-    print(is_valid_walk(graph, nodes))
+    # print(is_valid_walk(graph, nodes))
     #print(graph.edges)
-    print(nodes)
+    # print(nodes)
 
     dropoff_dict = { home:[home] for home in list_of_homes_ind }
 
     #nodes, dropoff_dict = simulated_annealing(nodes, graph, starting_ind, list_of_homes_ind, shortest_paths, dropoff_dict)
+    curr_palindrome = find_next_palindrome_new(nodes, list_of_homes_ind)
+    while (curr_palindrome[2]):
+        # print("palindrome: " + str(curr_palindrome))
+        start_ind = curr_palindrome[0]
+        end_ind = curr_palindrome[1]
+        homes_inside_palindrome = [node for node in nodes[start_ind+1:end_ind] if node in list_of_homes_ind]
+        #if len(homes_inside_palindrome) == 1:
 
+        for home in homes_inside_palindrome:
+            if home in dropoff_dict:
+                del dropoff_dict[home]
+        print(len(homes_inside_palindrome))
+        x = []
+        if nodes[start_ind] in dropoff_dict:
+            x = dropoff_dict[nodes[start_ind]]
+
+        dropoff_dict[nodes[start_ind]] = x + homes_inside_palindrome
+
+        nodes = nodes[:start_ind] + nodes[end_ind:]
+
+        curr_palindrome = find_next_palindrome_new(nodes, list_of_homes_ind)
+
+    # print(nodes)
+    # print(dropoff_dict)
     return nodes, dropoff_dict
 
 def remove_repeats(nodes):
@@ -85,8 +108,64 @@ def find_path(nodes, graph):
         final.extend(shortest_path)
         prev_node = shortest_path[-1]
     final.extend(nx.shortest_path(graph, curr_node, nodes[0])[1:])
-    # print(final)
     return final
+
+def find_next_palindrome(nodes):
+    result = []
+    start_ind = -1
+    end_ind = -1
+    for i in range(1, len(nodes)-1):
+        for j in range(1, i+1):
+            if i+j+1 == len(nodes):
+                break
+            cur = nodes[i-j:i+j+1]
+            reverse = cur[::-1]
+            if cur == reverse:
+                result = cur
+                start_ind = i-j
+                end_ind = i+j
+                continue
+            else:
+                break
+        if result != []:
+            break
+    return [start_ind, end_ind, result != []]
+
+def find_next_palindrome_new(nodes, list_of_homes_ind):
+    result = []
+    start_ind = -1
+    end_ind = -1
+    for i in range(1, len(nodes)-1):
+        for j in range(1, i+1):
+            if i+j+1 == len(nodes):
+                break
+            cur = nodes[i-j:i+j+1]
+            reverse = cur[::-1]
+
+            if cur == reverse:
+            
+                result = cur
+                start_ind = i-j
+                end_ind = i+j
+                homes_inside_palindrome = [node for node in nodes[start_ind+1:end_ind] if node in list_of_homes_ind]
+                if len(homes_inside_palindrome) == 1:
+                    break
+                continue
+            else:
+                homes_inside_palindrome = [node for node in nodes[start_ind+1:end_ind] if node in list_of_homes_ind]
+                if len(homes_inside_palindrome) == 1:
+                    break
+                result = []    
+                break
+        #homes_inside_palindrome = [node for node in nodes[start_ind+1:end_ind] if node in list_of_homes_ind]
+        if result != []:
+            break
+        else:
+            continue
+    return [start_ind, end_ind, result != []]
+
+
+
 
 def simulated_annealing(init_path, graph, starting_ind, list_of_homes_ind, shortest_paths, dropoff_dict):
     init_cost = cost_of_solution(graph, init_path, dropoff_dict)

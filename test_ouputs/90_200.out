@@ -1,5 +1,5 @@
-Albania Gabon Venezuela France Panama SriLanka Canada Yemen Serbia Albania Belarus Switzerland Pakistan Algeria Vanuatu Comoros Ethiopia SaintLucia Burma Israel Ethiopia EquatorGuinea Tunisia Guatemala SolomonIslands Netherlands Bhutan Netherlands Cambodia Mauritius Hungary Liechtenstein Namibia Australia MountAthos Estonia VaticanCity Qatar Mauritania Germany Albania SaoTomPrincipe UAE NorthKorea Cyprus Albania America Paraguay Vanuatu Fiji Canada Luxembourg Latvia Bahamas Kiribati Dominica Albania Togo Netherlands Mongolia Japan Rwanda Djibouti IvoryCoast Albania Eritrea Albania Newfoundland Kosovo Canada BosHerzegovina Vanuatu CentralAfricanRep Netherlands Danzig Vietnam Cuba NewZealand Netherlands Nepal Burkina Ukraine Vietnam Finland Romania Paraguay CapeVerde Norway RussianFederation Bulgaria Niger Paraguay Thailand Vietnam Peru Maldives Netherlands Portugal Netherlands Rome Paraguay Grenada Paraguay Italy Kazakhstan Vietnam TheGambia Jamaica Lesotho Paraguay Philippines UnitedKingdom Laos Albania SierraLeone Chile Albania Suriname Albania Seychelles PapuaNewGuinea Greece Albania Lithuania Poland Tanzania SaintKitts Albania Argentina Andorra Albania SaudiArabia Albania Brazil Albania Mali Malaysia Albania Slovenia Albania
-100
+Albania Gabon Venezuela France Panama SriLanka Canada Yemen Serbia Albania Belarus Switzerland Pakistan Algeria Vanuatu Comoros Ethiopia SaintLucia Burma Israel Ethiopia EquatorGuinea Tunisia Guatemala SolomonIslands Netherlands Cambodia Mauritius Hungary Liechtenstein Namibia Australia MountAthos Estonia VaticanCity Qatar Mauritania Germany Albania SaoTomPrincipe UAE NorthKorea Cyprus Albania America Paraguay Vanuatu Fiji Canada Luxembourg Latvia Bahamas Kiribati Dominica Albania Togo Netherlands Mongolia Japan Rwanda Djibouti IvoryCoast Albania Newfoundland Kosovo Canada BosHerzegovina Vanuatu CentralAfricanRep Netherlands Danzig Vietnam Cuba NewZealand Netherlands Nepal Burkina Ukraine Vietnam Finland Romania Paraguay CapeVerde Norway RussianFederation Bulgaria Niger Paraguay Thailand Vietnam Peru Maldives Netherlands Rome Paraguay Italy Kazakhstan Vietnam TheGambia Jamaica Lesotho Paraguay Philippines UnitedKingdom Laos Albania SierraLeone Chile Albania Seychelles PapuaNewGuinea Greece Albania Lithuania Poland Tanzania SaintKitts Albania Argentina Andorra Albania Mali Malaysia Albania Slovenia Albania
+95
 Bahamas Bahamas
 Malaysia Malaysia
 Rome Rome
@@ -23,7 +23,6 @@ Kosovo Kosovo
 Norway Norway
 Algeria Algeria
 Panama Panama
-Eritrea Eritrea
 Mongolia Mongolia
 UnitedKingdom UnitedKingdom
 Peru Peru
@@ -31,9 +30,8 @@ Mauritius Mauritius
 Laos Laos
 Luxembourg Luxembourg
 Belarus Belarus
-Paraguay Paraguay
+Paraguay Paraguay Grenada
 America America
-Brazil Brazil
 MountAthos MountAthos
 Dominica Dominica
 Philippines Philippines
@@ -46,7 +44,6 @@ SierraLeone SierraLeone
 Kazakhstan Kazakhstan
 Cambodia Cambodia
 Japan Japan
-Portugal Portugal
 Danzig Danzig
 Jamaica Jamaica
 Tunisia Tunisia
@@ -65,7 +62,6 @@ Slovenia Slovenia
 Lesotho Lesotho
 CentralAfricanRep CentralAfricanRep
 Romania Romania
-Bhutan Bhutan
 Ethiopia Ethiopia
 NorthKorea NorthKorea
 SaintLucia SaintLucia
@@ -73,8 +69,6 @@ Gabon Gabon
 Hungary Hungary
 SaintKitts SaintKitts
 Vanuatu Vanuatu
-SaudiArabia SaudiArabia
-Grenada Grenada
 SaoTomPrincipe SaoTomPrincipe
 Rwanda Rwanda
 RussianFederation RussianFederation
@@ -94,9 +88,10 @@ Finland Finland
 Mali Mali
 TheGambia TheGambia
 Greece Greece
-Suriname Suriname
 Liechtenstein Liechtenstein
 Lithuania Lithuania
 Serbia Serbia
 Maldives Maldives
 Fiji Fiji
+Netherlands Bhutan Portugal
+Albania Eritrea Suriname SaudiArabia Brazil

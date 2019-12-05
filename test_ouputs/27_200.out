@@ -1,5 +1,5 @@
-node142 node40 node102 node3 node129 node45 node5 node24 node135 node70 node3 node107 node3 node144 node0 node148 node177 node5 node183 node3 node47 node62 node128 node17 node1 node27 node2 node6 node11 node39 node11 node127 node1 node23 node6 node56 node6 node80 node3 node123 node3 node130 node10 node163 node37 node34 node1 node50 node81 node1 node87 node89 node91 node8 node93 node5 node151 node152 node6 node162 node182 node6 node18 node20 node2 node26 node31 node60 node2 node66 node2 node69 node88 node2 node122 node2 node140 node2 node143 node154 node2 node161 node185 node2 node53 node2 node65 node1 node92 node15 node111 node112 node4 node121 node124 node1 node125 node21 node160 node166 node169 node2 node199 node9 node77 node12 node78 node86 node94 node21 node99 node16 node103 node119 node18 node136 node108 node164 node0 node170 node6 node171 node196 node7 node142
-80
+node142 node40 node102 node3 node129 node45 node5 node24 node135 node70 node3 node144 node0 node148 node177 node5 node183 node3 node47 node62 node128 node17 node1 node27 node2 node6 node11 node127 node1 node23 node6 node80 node3 node130 node10 node163 node37 node34 node1 node50 node81 node1 node87 node89 node91 node8 node93 node5 node151 node152 node6 node162 node182 node6 node18 node20 node2 node26 node31 node60 node2 node69 node88 node2 node143 node154 node2 node161 node185 node2 node65 node1 node92 node15 node111 node112 node4 node121 node124 node1 node125 node21 node160 node166 node169 node2 node199 node9 node77 node12 node78 node86 node94 node21 node99 node16 node103 node119 node18 node136 node108 node164 node0 node170 node6 node171 node196 node7 node142
+73
 node103 node103
 node148 node148
 node78 node78
@@ -15,12 +15,11 @@ node34 node34
 node182 node182
 node163 node163
 node170 node170
-node2 node2
+node2 node2 node66 node122 node140 node53
 node20 node20
 node17 node17
 node86 node86
 node112 node112
-node107 node107
 node62 node62
 node144 node144
 node45 node45
@@ -30,10 +29,8 @@ node169 node169
 node162 node162
 node124 node124
 node183 node183
-node140 node140
 node10 node10
 node92 node92
-node122 node122
 node18 node18
 node161 node161
 node166 node166
@@ -41,23 +38,19 @@ node60 node60
 node135 node135
 node196 node196
 node81 node81
-node56 node56
 node99 node99
 node129 node129
 node164 node164
 node31 node31
 node23 node23
-node53 node53
-node11 node11
+node11 node11 node39
 node108 node108
 node93 node93
 node154 node154
 node77 node77
 node160 node160
-node123 node123
 node152 node152
 node121 node121
-node66 node66
 node70 node70
 node27 node27
 node102 node102
@@ -68,15 +61,15 @@ node91 node91
 node136 node136
 node185 node185
 node87 node87
-node6 node6
+node6 node6 node56
 node128 node128
 node171 node171
 node125 node125
 node151 node151
 node24 node24
-node39 node39
 node127 node127
 node119 node119
 node94 node94
 node130 node130
 node89 node89
+node3 node107 node123

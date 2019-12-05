@@ -1,27 +1,16 @@
-Soda a b c d e f g h i j k l l0 l l1 l k k0 k k1 k j j0 j j1 j i i0 i i1 i h h0 h h1 h g g0 g g1 g f f0 f f1 f e e0 e e1 e d d0 d d1 d c c0 c c1 c b b0 b b1 b a a0 a a1 a Soda o p r s u w y w u s r p o Soda
-25
-a0 a0
-a1 a1
-b0 b0
-b1 b1
-c0 c0
-c1 c1
-d0 d0
-d1 d1
-e0 e0
-e1 e1
-f0 f0
-f1 f1
-g0 g0
-g1 g1
-h0 h0
-h1 h1
-i0 i0
-i1 i1
-j0 j0
-j1 j1
-k0 k0
-k1 k1
-l0 l0
-l1 l1
-y y
+Soda o Soda
+14
+l l0
+k l1 k0
+j k1 j0
+i j1 i0
+h i1 h0
+g h1 g0
+f g1 f0
+e f1 e0
+d e1 d0
+c d1 c0
+b c1 b0
+a b1 a0
+Soda a1
+o y

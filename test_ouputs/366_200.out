@@ -1,17 +1,15 @@
-Whitgrove Dribblecombe Whitgrove Sodberling Bromstanham Clereennell Reddensden Worrenberwang Ellerbridge Worrenberwang Ellerbridge Ketchester Boothingmanstree Tippendham Watchlake Farndlesover Watchlake Tippingbage Basditch Boothingchester Wycastle Bootwick Todhampton Worbrook Rothingenbage Sundendford Chedworth Sundendford Botbeck Abcester Sifield Enderbeck Sodport Whitringlake Falworth Tipstoke Milthorne Rothingcombe Faldenhall Wethampton Falderseythorne Southmere Egsted Marlbeck Basbage Warblestancester Tippendham Emmerley Bastlebury Rothendcombe Bastlebury Hamwold Emmerley Southbury Bassinghead Nortwell Marlcester Horsnell Maidendstoke Stainbrough Wendleringdown Worrenberwang Bothenhall Botshot Ribberrenston Farnditch Abglewold Southbury Chelmdenmoor Ketnell Staplow Ketnell Toddenmoor Durbrook Sodport Skelberden Southmere Falderseythorne Penby Falderseythorne Worford Hampingworth Botenbrook Tipstoke Stapby Braddlesnell Dribberham Worford Rotherlow Skellenshot Cihead Wethampton Abgleham Sundlethorne Fullensborne Blansbrook Redwich Horsmere Siavon Horsnell Maidendstoke Prestwick Wychchester Prestwick Egmerhampton Suddenmoor Tippenbrook Suddenmoor Staincombe Suddenmoor Melwood Endleshall Candleswick Skellingover Warblestancester Reddensden Cirerham Dartden Watchlake Wolley Hampingworth Worhall Reddendeney Worhall Alddleringworth Leatherport Alfmere Aldtree Hannersmith Shaftborough Wychcompwold Sirenshall Cannerthorne Waltbeck Hampingcastle Eley Reddingtree Stapbrough Reddingtree Endleberey Reddingtree Basditch Redcombe Sirenshall Cannerthorne Sirenshall Hampingbascombe Wetwick Worrenberwang Ellerbridge Elside Wetsmith Warsmith Horstleover Toddenmerbrough Casbrook Toddenmerbrough Endingnell Ribglesstanworth Barndlesborough Siey Barndlesborough Marlbrook Reddingtree Reddendeney Suddingover Toddenmerbrough Hannersmith Bursmith Redwich Bothenton Hampingbascombe Whitgrove
-100
+Whitgrove Sodberling Bromstanham Clereennell Reddensden Worrenberwang Ellerbridge Ketchester Boothingmanstree Tippendham Watchlake Tippingbage Basditch Boothingchester Wycastle Bootwick Todhampton Worbrook Rothingenbage Sundendford Botbeck Abcester Sifield Enderbeck Sodport Whitringlake Falworth Tipstoke Milthorne Rothingcombe Faldenhall Wethampton Falderseythorne Southmere Egsted Marlbeck Basbage Warblestancester Tippendham Emmerley Bastlebury Hamwold Emmerley Southbury Bassinghead Nortwell Marlcester Horsnell Maidendstoke Stainbrough Wendleringdown Worrenberwang Bothenhall Botshot Ribberrenston Farnditch Abglewold Southbury Chelmdenmoor Ketnell Toddenmoor Durbrook Sodport Skelberden Southmere Falderseythorne Worford Hampingworth Botenbrook Tipstoke Stapby Braddlesnell Dribberham Worford Rotherlow Skellenshot Cihead Wethampton Abgleham Sundlethorne Fullensborne Blansbrook Redwich Horsmere Siavon Horsnell Maidendstoke Prestwick Egmerhampton Suddenmoor Melwood Endleshall Candleswick Skellingover Warblestancester Reddensden Cirerham Dartden Watchlake Wolley Hampingworth Worhall Alddleringworth Leatherport Alfmere Aldtree Hannersmith Shaftborough Wychcompwold Sirenshall Cannerthorne Waltbeck Hampingcastle Eley Reddingtree Basditch Redcombe Sirenshall Hampingbascombe Wetwick Worrenberwang Ellerbridge Elside Wetsmith Warsmith Horstleover Toddenmerbrough Endingnell Ribglesstanworth Barndlesborough Marlbrook Reddingtree Reddendeney Suddingover Toddenmerbrough Hannersmith Bursmith Redwich Bothenton Hampingbascombe Whitgrove
+87
 Sifield Sifield
 Melwood Melwood
 Wethampton Wethampton
 Tipstoke Tipstoke
-Worrenberwang Worrenberwang
-Cannerthorne Cannerthorne
-Reddendeney Reddendeney
+Worrenberwang Worrenberwang Ellerbridge
 Ketchester Ketchester
 Enderbeck Enderbeck
 Abglewold Abglewold
-Bastlebury Bastlebury
-Ketnell Ketnell
+Bastlebury Bastlebury Rothendcombe
+Ketnell Ketnell Staplow
 Skelberden Skelberden
 Bothenton Bothenton
 Faldenhall Faldenhall
@@ -19,33 +17,26 @@ Eley Eley
 Siavon Siavon
 Todhampton Todhampton
 Hampingcastle Hampingcastle
-Casbrook Casbrook
 Shaftborough Shaftborough
 Redcombe Redcombe
 Southbury Southbury
 Suddingover Suddingover
 Farnditch Farnditch
-Dribblecombe Dribblecombe
 Egmerhampton Egmerhampton
-Watchlake Watchlake
+Watchlake Watchlake Farndlesover
 Clereennell Clereennell
-Penby Penby
 Cihead Cihead
 Rothingcombe Rothingcombe
-Staincombe Staincombe
 Horsnell Horsnell
-Staplow Staplow
 Wetsmith Wetsmith
 Falworth Falworth
-Stapbrough Stapbrough
 Tippingbage Tippingbage
 Nortwell Nortwell
 Ribberrenston Ribberrenston
 Dartden Dartden
 Rotherlow Rotherlow
 Basditch Basditch
-Prestwick Prestwick
-Ellerbridge Ellerbridge
+Prestwick Prestwick Wychchester
 Wycastle Wycastle
 Milthorne Milthorne
 Hamwold Hamwold
@@ -54,34 +45,28 @@ Endingnell Endingnell
 Worford Worford
 Bootwick Bootwick
 Waltbeck Waltbeck
-Suddenmoor Suddenmoor
+Suddenmoor Suddenmoor Tippenbrook Staincombe
 Southmere Southmere
 Skellenshot Skellenshot
 Bromstanham Bromstanham
-Worhall Worhall
-Chedworth Chedworth
+Worhall Worhall Reddendeney
 Hampingworth Hampingworth
-Sirenshall Sirenshall
+Sirenshall Sirenshall Cannerthorne
 Wetwick Wetwick
 Bothenhall Bothenhall
 Candleswick Candleswick
-Siey Siey
 Whitringlake Whitringlake
 Wychcompwold Wychcompwold
-Rothendcombe Rothendcombe
 Botbeck Botbeck
-Tippenbrook Tippenbrook
 Toddenmoor Toddenmoor
 Leatherport Leatherport
 Dribberham Dribberham
 Emmerley Emmerley
 Skellingover Skellingover
-Wychchester Wychchester
 Sodberling Sodberling
 Sodport Sodport
 Tippendham Tippendham
-Whitgrove Whitgrove
-Farndlesover Farndlesover
+Whitgrove Whitgrove Dribblecombe
 Alfmere Alfmere
 Horstleover Horstleover
 Durbrook Durbrook
@@ -94,9 +79,11 @@ Wendleringdown Wendleringdown
 Blansbrook Blansbrook
 Marlcester Marlcester
 Wolley Wolley
-Sundendford Sundendford
+Sundendford Sundendford Chedworth
 Boothingmanstree Boothingmanstree
-Falderseythorne Falderseythorne
+Falderseythorne Falderseythorne Penby
 Hampingbascombe Hampingbascombe
 Egsted Egsted
-Endleberey Endleberey
+Reddingtree Stapbrough Endleberey
+Toddenmerbrough Casbrook
+Barndlesborough Siey

@@ -1,34 +1,24 @@
-zero two three ten three four five twelve thirteen fourteen thirteen twenty twentyone fifteen twentytwo twentythree twentyfour twentyfive twentyfour twentythree twentytwo twentynine thirty twentynine thirtyfive thirtyfour thirtythree thirtyfour thirtyfive twentynine thirtysix thirtyseven thirtyeight thirtynine thirtyeight thirtyseven fortyfour fortyfive fortysix fortyseven fortyeight fortynine fortythree fortyfour fiftyone fifty fiftysix fiftyfive fiftysix fifty fiftyseven sixtythree sixtytwo sixtyone sixty sixtyseven sixtysix sixtyfive sixtyfour seventy sixtynine sixtyeight seventyfive seventysix seventyseven seventyone seventyeight seventynine eighty eightyone eightytwo eightyone eightyeight eightyseven eightyeight eightynine eightyeight ninetyfive eightyeight eightyone eightytwo eightythree eightyfour seventyseven seventy sixtythree fiftysix fifty fiftyone fiftytwo fiftythree fortysix thirtynine thirtytwo twentyfive eighteen eleven four zero six zero
-50
+zero two three four five twelve thirteen twenty twentyone fifteen twentytwo twentynine thirtysix thirtyseven fortyfour fortyfive fortysix fortyseven fortyeight fortynine fortythree fortyfour fiftyone fifty fiftyseven sixtythree sixtytwo sixtyone sixty sixtyseven sixtysix sixtyfive sixtyfour seventy sixtynine sixtyeight seventyfive seventysix seventyseven seventyone seventyeight seventynine eighty eightyone eightytwo eightythree eightyfour seventyseven seventy sixtythree fiftysix fifty fiftyone fiftytwo fiftythree fortysix thirtynine thirtytwo twentyfive eighteen eleven four zero six zero
+36
 two two
-three three
+three three ten
 four four
 five five
 six six
-ten ten
 twelve twelve
-fourteen fourteen
 fifteen fifteen
 twenty twenty
-twentytwo twentytwo
-twentyfour twentyfour
-twentyfive twentyfive
-twentynine twentynine
-thirty thirty
-thirtythree thirtythree
-thirtyfour thirtyfour
-thirtyfive thirtyfive
+twentytwo twentytwo twentyfour twentyfive twentyfour
+twentynine twentynine thirty thirtyfive thirtyfour thirtythree thirtyfour thirtyfive
 thirtysix thirtysix
-thirtyseven thirtyseven
-thirtynine thirtynine
+thirtyseven thirtyseven thirtynine
 fortyfour fortyfour
 fortyfive fortyfive
 fortyseven fortyseven
 fortyeight fortyeight
-fifty fifty
+fifty fifty fiftyfive
 fiftyone fiftyone
 fiftythree fiftythree
-fiftyfive fiftyfive
 fiftyseven fiftyseven
 sixty sixty
 sixtyone sixtyone
@@ -43,10 +33,6 @@ seventyfive seventyfive
 seventyseven seventyseven
 seventyeight seventyeight
 seventynine seventynine
-eightyone eightyone
-eightytwo eightytwo
+eightyone eightyone eightytwo eightyeight ninetyfive eightyeight
 eightyfour eightyfour
-eightyseven eightyseven
-eightyeight eightyeight
-eightynine eightynine
-ninetyfive ninetyfive
+thirteen fourteen
