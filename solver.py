@@ -82,7 +82,11 @@ def solve(list_of_locations, list_of_homes, starting_car_location, adjacency_mat
             ###print(dropoff_dict[nodes[start_ind]])
             x = dropoff_dict[nodes[start_ind]]
 
-        dropoff_dict[nodes[start_ind]] = x + homes_inside_palindrome
+        check_dup = x + homes_inside_palindrome
+        no_dup = set(check_dup)
+        check_dup = list(no_dup)
+        dropoff_dict[nodes[start_ind]] = check_dup
+
         ###print(dropoff_dict[nodes[start_ind]])
         ###print(nodes[start_ind+1:end_ind])
         nodes = nodes[:start_ind] + nodes[end_ind:]
