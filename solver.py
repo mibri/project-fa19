@@ -51,7 +51,7 @@ def solve(list_of_locations, list_of_homes, starting_car_location, adjacency_mat
     nodes = find_path(nodes, graph)
     # print(is_valid_walk(graph, nodes))
     #print(graph.edges)
-    # print(nodes)
+    print(nodes)
 
     dropoff_dict = { home:[home] for home in list_of_homes_ind }
 
@@ -62,24 +62,32 @@ def solve(list_of_locations, list_of_homes, starting_car_location, adjacency_mat
         start_ind = curr_palindrome[0]
         end_ind = curr_palindrome[1]
         homes_inside_palindrome = [node for node in nodes[start_ind+1:end_ind] if node in list_of_homes_ind]
-        #if len(homes_inside_palindrome) == 1:
+        if len(homes_inside_palindrome) <= 2:
+            #in the palindrome, delete all homes from the dropoff list, because we're now dropping off at the node at start of palindrome
+            #also, we delete from larger set, because we're not dropping off there
+            for home in homes_inside_palindrome:
+                if home in dropoff_dict:
+                    print(home)
+                    del dropoff_dict[home]
 
-        for home in homes_inside_palindrome:
-            if home in dropoff_dict:
-                del dropoff_dict[home]
-        print(len(homes_inside_palindrome))
-        x = []
-        if nodes[start_ind] in dropoff_dict:
-            x = dropoff_dict[nodes[start_ind]]
+            x = []
+            if nodes[start_ind] in dropoff_dict:
+                x = dropoff_dict[nodes[start_ind]]
 
-        dropoff_dict[nodes[start_ind]] = x + homes_inside_palindrome
+            dropoff_dict[nodes[start_ind]] = x + homes_inside_palindrome
 
-        nodes = nodes[:start_ind] + nodes[end_ind:]
+            nodes = nodes[:start_ind] + nodes[end_ind:]
 
-        curr_palindrome = find_next_palindrome_new(nodes, list_of_homes_ind)
+            end_ind = start_ind + 1
 
-    # print(nodes)
+        curr_palindrome = find_next_palindrome(nodes, end_ind)
+
+    print(nodes)
     # print(dropoff_dict)
+    for i in dropoff_dict.keys():
+        if i not in nodes:
+            print(i)
+            print(dropoff_dict[i])
     return nodes, dropoff_dict
 
 def remove_repeats(nodes):
@@ -110,12 +118,12 @@ def find_path(nodes, graph):
     final.extend(nx.shortest_path(graph, curr_node, nodes[0])[1:])
     return final
 
-def find_next_palindrome(nodes):
+def find_next_palindrome(nodes, start):
     result = []
     start_ind = -1
     end_ind = -1
-    for i in range(1, len(nodes)-1):
-        for j in range(1, i+1):
+    for i in range(start, len(nodes)-1):
+        for j in range(1, i):
             if i+j+1 == len(nodes):
                 break
             cur = nodes[i-j:i+j+1]
