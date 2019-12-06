@@ -13,6 +13,7 @@ from networkx.algorithms import approximation
 import matplotlib as plt
 import math
 import random
+import copy
 
 from student_utils import *
 """
@@ -49,15 +50,11 @@ def solve(list_of_locations, list_of_homes, starting_car_location, adjacency_mat
 
     # print(nodes)
     nodes = find_path(nodes, graph)
-    print(is_valid_walk(graph, nodes))
-    #print(graph.edges)
-    print(nodes)
-
     dropoff_dict = { home:[home] for home in list_of_homes_ind }
 
-    #nodes, dropoff_dict = simulated_annealing(nodes, graph, starting_ind, list_of_homes_ind, shortest_paths, dropoff_dict)
-
+    nodes, dropoff_dict = remove_triple(nodes, graph, dropoff_dict)
     return nodes, dropoff_dict
+
 
 def remove_repeats(nodes):
     """might be a bit inefficient, should fix later"""
@@ -96,7 +93,76 @@ def simulated_annealing(init_path, graph, starting_ind, list_of_homes_ind, short
     while True: #need to change conditional
         rand_ind = random.randint(min_ind, max_ind)
 
+def remove_triple(nodes, graph, dropoff_dict):
+    start_ind = 0
+    has_pal = True
+    curr_cost_sol = cost_of_solution(graph, nodes, dropoff_dict)
+    curr_ind = start_ind
+    while True: #might have to change this to be an if condition
+        if not has_pal or start_ind + 2 >= len(nodes):
+            break
+        curr_ind = start_ind
+        has_pal = False
+        while True:
+            if curr_ind + 2 >= len(nodes):
+                break
+            if nodes[curr_ind] == nodes[curr_ind + 2]:
+                has_pal = True
+                # if nodes[curr_ind + 1] not in dropoff_dict: #for initial, can remove later when done debugging
+                #     print(str(nodes[curr_ind + 1]) + " is not in the dropoff_dict, check this")
+                #     curr_ind += 2
+                #     break
 
+                test_nodes = nodes[:curr_ind] + nodes[curr_ind + 2:]
+                test_dict = copy.deepcopy(dropoff_dict)
+                test_dict[nodes[curr_ind]] = test_dict.pop(nodes[curr_ind + 1], []) + test_dict.get(nodes[curr_ind], [])
+                new_cost = cost_of_solution(graph, test_nodes, test_dict)
+
+                if new_cost < curr_cost_sol:
+                    curr_cost_sol = new_cost
+                    dropoff_dict = test_dict
+                    nodes = test_nodes
+                    curr_ind += 1
+                    break
+                else:
+                    curr_ind += 2
+                    start_ind = curr_ind
+
+            else:
+                curr_ind += 1
+    return nodes, dropoff_dict
+
+
+
+def cost_of_solution(G, car_cycle, dropoff_mapping):
+    cost = 0
+    dropoffs = dropoff_mapping.keys()
+
+    if not car_cycle[0] == car_cycle[-1]:
+        print('The start and end vertices are not the same.')
+        return
+
+    if len(car_cycle) == 1:
+        car_cycle = []
+    else:
+        car_cycle = get_edges_from_path(car_cycle[:-1]) + [(car_cycle[-2], car_cycle[-1])]
+    if len(car_cycle) != 1:
+        driving_cost = sum([G.edges[e]['weight'] for e in car_cycle]) * 2 / 3
+    else:
+        driving_cost = 0
+    walking_cost = 0
+    shortest = dict(nx.floyd_warshall(G))
+
+    for drop_location in dropoffs:
+        for house in dropoff_mapping[drop_location]:
+            walking_cost += shortest[drop_location][house]
+
+    cost = driving_cost + walking_cost
+
+    return cost
+
+def get_edges_from_path(path):
+    return [(path[i], path[i+1]) for i in range(len(path) - 1)]
 
 
 """
