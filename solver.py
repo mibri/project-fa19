@@ -52,7 +52,9 @@ def solve(list_of_locations, list_of_homes, starting_car_location, adjacency_mat
     nodes = find_path(nodes, graph)
     dropoff_dict = { home:[home] for home in list_of_homes_ind }
 
+    # print("first: " + str(len(nodes)) + " " + str(cost_of_solution(graph, nodes, dropoff_dict)))
     nodes, dropoff_dict = remove_triple(nodes, graph, dropoff_dict)
+    # print("after: " + str(len(nodes)) + " " + str(cost_of_solution(graph, nodes, dropoff_dict)))
     return nodes, dropoff_dict
 
 
@@ -84,14 +86,6 @@ def find_path(nodes, graph):
     final.extend(nx.shortest_path(graph, curr_node, nodes[0])[1:])
     # print(final)
     return final
-
-def simulated_annealing(init_path, graph, starting_ind, list_of_homes_ind, shortest_paths, dropoff_dict):
-    init_cost = cost_of_solution(graph, init_path, dropoff_dict)
-    min_ind = min(list_of_homes_ind)
-    max_ind = max(list_of_homes_ind)
-    new_path = init_path[:]
-    while True: #need to change conditional
-        rand_ind = random.randint(min_ind, max_ind)
 
 def remove_triple(nodes, graph, dropoff_dict):
     start_ind = 0
