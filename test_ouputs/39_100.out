@@ -1,5 +1,6 @@
-SantaClarita Carrollton Lubbock Concord Victorville Shreveport Huntsville Thornton Beaumont Miami GardenGrove Fremont Reno PembrokePines Austin Indianapolis Stockton Pomona Allentown Omaha Ontario Boston Hartford LongBeach LouisvilleJefferson WestValleyCity Surprise Sunnyvale Visalia Portland Henderson FortWayne Washington RanchoCucamonga Brownsville Orlando LosAngeles OklahomaCity StPetersburg Orlando Lafayette Newark Alexandria Bellevue Scottsdale SiouxFalls Independence Fayetteville Fontana Worcester Garland Richmond Escondido Peoria Wichita Boston Frisco LexingtonFa SanDiego Paterson Chandler FortCollins SantaClarita
-47
+SantaClarita Carrollton Stockton Allentown Omaha Ontario Boston Hartford Sunnyvale Visalia OklahomaCity Stamford Washington Yonkers Thornton Midland Independence Fayetteville Fontana Bellevue Scottsdale SiouxFalls Wichita Indianapolis Austin PembrokePines RanchoCucamonga LosAngeles Orlando StPetersburg Newark Garland Worcester Brownsville Lafayette Alexandria OklahomaCity Waco Frisco Victorville Concord RanchoCucamonga NewportNews Beaumont Shreveport Huntsville SanDiego LexingtonFa LouisvilleJefferson WestValleyCity Surprise Miami Henderson Escondido StLouis Wichita Pomona Frisco LongBeach SanDiego Paterson Chandler FortCollins GardenGrove Carrollton SantaClarita
+50
+Midland Midland
 Victorville Victorville
 Shreveport Shreveport
 Washington Washington
@@ -15,17 +16,21 @@ Carrollton Carrollton
 Lafayette Lafayette
 Worcester Worcester
 Bellevue Bellevue
+StLouis StLouis
 Fayetteville Fayetteville
+Stamford Stamford
 Alexandria Alexandria
 Paterson Paterson
 Boston Boston
 SiouxFalls SiouxFalls
+Waco Waco
+NewportNews NewportNews
 Visalia Visalia
 StPetersburg StPetersburg
 Henderson Henderson
 Brownsville Brownsville
 Omaha Omaha
-Beaumont Beaumont NewportNews
+Beaumont Beaumont
 LosAngeles LosAngeles
 Huntsville Huntsville
 Concord Concord
@@ -37,6 +42,7 @@ Ontario Ontario
 LongBeach LongBeach
 Austin Austin
 WestValleyCity WestValleyCity
+Yonkers Yonkers
 Stockton Stockton
 Indianapolis Indianapolis
 Allentown Allentown
@@ -44,6 +50,3 @@ Wichita Wichita
 Orlando Orlando
 Garland Garland
 Surprise Surprise
-Thornton Yonkers Midland
-SanDiego Waco StLouis
-FortCollins Stamford

@@ -1,5 +1,5 @@
-Monroe Clarksville Five Lewisville Allentown Miami Corpus Layton Canton Leominster Mobile Four Boulder Lacey Melbourne Elizabeth Irving Baton Five Three Detroit Montgomery Merced Dallas Gainesville Vista Greensboro Hartford Glendale Amarillo Birmingham Athens Mesquite Huntsville Collins Killeen Baltimore Kenosha Hagerstown Brownsville Hickory Ten Kennewick Denver Monterey Bradenton Lakeland Hayward Denton Prairie Naples Bedford Hagerstown Hampton Modesto Gilbert Danbury Hesperia Clarke Viejo Burlington Dayton Hagerstown Daytona Anchorage Apple Fayetteville Jacksonville Anaheim Athens Huntington Elkhart Lancaster Havre Athens Antioch Hagerstown Erie Athens Cleveland Julian Danbury Lafayette Rapids Davidson Five Arlington Bridgeport Abilene Charleston Laredo Seven Kissimmee Collins Carrollton Asheville Chesapeake Manchester Cary Danbury Mesa Hialeah Albany Cambridge Lowell Aberdeen Boise Athens Muskegon Hagerstown Johnson Bethlehem CSprings Kailua Monroe
-99
+Monroe Asheville Athens Hagerstown Lancaster Clarke Modesto Monterey Laredo Carrollton Ten Boulder Johnson Bridgeport Corpus Apple Birmingham Lowell Kenosha Clarksville Viejo Lafayette Abilene Huntington Austin Naples Anaheim Hialeah Seven Melbourne Bethlehem Lewisville Kissimmee Gainesville Glendale Davidson Charleston Cary Detroit Mobile Baltimore Prairie Lakeland Antioch Lacey Kennewick Albany Leominster Gilbert Elkhart Baton Dallas Bedford Four Canton Cleveland Miami Havre Hickory Denton Hampton Jacksonville Chesapeake Layton Hayward Amarillo Huntsville Hesperia Fayetteville Killeen Cambridge Boise Arlington Denver Akron Greensboro Aberdeen Mesa Muskegon Kailua Elizabeth Erie Vista Dayton Montgomery Hartford Fairfield Brownsville Allentown Merced Anchorage Daytona Irving Three Burlington Manchester Bradenton Mesquite Julian Rapids Monroe
+100
 Bradenton Bradenton
 Three Three
 Mesquite Mesquite
@@ -13,6 +13,7 @@ Melbourne Melbourne
 Kissimmee Kissimmee
 Baton Baton
 Allentown Allentown
+Fairfield Fairfield
 Arlington Arlington
 Four Four
 Elizabeth Elizabeth
@@ -27,7 +28,8 @@ Elkhart Elkhart
 Aberdeen Aberdeen
 Greensboro Greensboro
 Gilbert Gilbert
-Athens Athens Austin
+Athens Athens
+Akron Akron
 Killeen Killeen
 Amarillo Amarillo
 Lewisville Lewisville
@@ -69,6 +71,7 @@ Bethlehem Bethlehem
 Apple Apple
 Cambridge Cambridge
 Hayward Hayward
+Austin Austin
 Lafayette Lafayette
 Monterey Monterey
 Merced Merced
@@ -97,5 +100,3 @@ Corpus Corpus
 Fayetteville Fayetteville
 Layton Layton
 Denver Denver
-Collins Akron
-Danbury Fairfield

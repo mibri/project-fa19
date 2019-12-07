@@ -1,7 +1,8 @@
-Plano Rockford Riverside SantaClara Irving Pasadena Norman Sunnyvale MorenoValley Warren SanFrancisco Rochester OklahomaCity Cary LasVegas Vallejo Miami Cincinnati Olathe Irvine LittleRock HuntingtonBeach Mobile Hartford Dallas Worcester Mesquite Joliet Thornton Anchorage Salinas GardenGrove CedarRapids SanAntonio Davidson LexingtonFa Chicago Denton Raleigh Glendale SantaRosa Laredo Tampa Portland McAllen GrandPrairie FortCollins SiouxFalls Shreveport Allentown Stamford Glasses Hollywood Escondido Akron LosAngeles Lancaster Torrance PembrokePines Lincoln Elizabeth Anaheim JerseyCity Pikachu Lafayette Huntsville KansasCity Killeen Tampa Houston Pomona Spokane CorpusChristi SantaClarita NewHaven Mobile NewOrleans Surprise Corona Brownsville Knoxville Madison Fremont SanBernardino Salinas AugustaRichmond Miami Tallahassee Hampton Miami Beaumont Vancouver Atlanta Cleveland Denver Hayward WinstonSalem Waco Ontario Omaha Garland Jackson AnnArbor FortLauderdale Norfolk Reno LouisvilleJefferson Tulsa AnnArbor StLouis Chesapeake Wichita Topeka OWO Mesa Memphis Oxnard Kent Plano
-94
+Plano Rockford Riverside SanFrancisco Warren Sunnyvale Norman MorenoValley Irving SantaClara Hampton Olathe Cincinnati Miami Vancouver Atlanta Garland Beaumont Montgomery Memphis Oxnard Omaha StLouis Norfolk FortLauderdale AnnArbor Mesquite Worcester Mobile Hartford Dallas NewOrleans AugustaRichmond Pasadena OklahomaCity Cary LasVegas Vallejo Elizabeth SiouxFalls Raleigh Pomona Houston SantaClarita CorpusChristi Knoxville Brownsville Corona Surprise Greensboro Salinas GrandPrairie Portland McAllen Laredo Tampa SanJose Killeen Allentown Stamford Glasses Tulsa LouisvilleJefferson Escondido Akron Torrance JerseyCity Anaheim Pikachu Lincoln SantaRosa LittleRock Irvine SimiValley SanBernardino Anchorage Thornton NewHaven Davidson Lafayette Ontario Denver Hayward Mesa Charleston HuntingtonBeach GardenGrove Elizabeth OWO Chesapeake Huntsville KansasCity Chicago Denton Glendale Fremont Madison SanAntonio ThousandOaks Elizabeth Waco Wichita PembrokePines Lancaster LosAngeles Hollywood Escondido FortCollins SantaRosa Plano
+100
 SanFrancisco SanFrancisco
 SantaClara SantaClara
+Charleston Charleston
 FortCollins FortCollins
 Cincinnati Cincinnati
 Mesquite Mesquite
@@ -14,14 +15,16 @@ Beaumont Beaumont
 Anaheim Anaheim
 Brownsville Brownsville
 StLouis StLouis
+SanJose SanJose
 Glendale Glendale
 Elizabeth Elizabeth
 Killeen Killeen
-McAllen McAllen ThousandOaks
+McAllen McAllen
 LasVegas LasVegas
 Ontario Ontario
 Davidson Davidson
 Norman Norman
+Montgomery Montgomery
 Garland Garland
 Mesa Mesa
 SantaRosa SantaRosa
@@ -43,15 +46,16 @@ Raleigh Raleigh
 Torrance Torrance
 Lincoln Lincoln
 SiouxFalls SiouxFalls
-Surprise Surprise Greensboro
+Surprise Surprise
 Allentown Allentown
 Norfolk Norfolk
 Houston Houston
 Fremont Fremont
+Greensboro Greensboro
 SanAntonio SanAntonio
 OWO OWO
 Anchorage Anchorage
-Glasses Glasses SanJose
+Glasses Glasses
 Chicago Chicago
 Atlanta Atlanta
 Cary Cary
@@ -63,14 +67,16 @@ LouisvilleJefferson LouisvilleJefferson
 Madison Madison
 Thornton Thornton
 Hayward Hayward
-Miami Miami SimiValley
+Miami Miami
 Knoxville Knoxville
 Denton Denton
+ThousandOaks ThousandOaks
 Pasadena Pasadena
 JerseyCity JerseyCity
 AugustaRichmond AugustaRichmond
 Denver Denver
 Sunnyvale Sunnyvale
+SimiValley SimiValley
 FortLauderdale FortLauderdale
 Laredo Laredo
 SantaClarita SantaClarita
@@ -85,7 +91,7 @@ Huntsville Huntsville
 Pomona Pomona
 CorpusChristi CorpusChristi
 Mobile Mobile
-Memphis Memphis Montgomery Charleston
+Memphis Memphis
 GrandPrairie GrandPrairie
 Pikachu Pikachu
 Vancouver Vancouver

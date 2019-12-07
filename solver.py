@@ -38,8 +38,36 @@ def solve(list_of_locations, list_of_homes, starting_car_location, adjacency_mat
     list_of_homes_ind = [ind[home] for home in list_of_homes]
     starting_ind = ind[starting_car_location]
     graph, message = adjacency_matrix_to_graph(adjacency_matrix)
-    shortest_paths = nx.shortest_path(graph)
+    shortest_path = nx.shortest_path(graph)
+    shortest_path_length = dict(nx.shortest_path_length(graph))
+    #print(shortest_path_length)
+    #find_next_path_greedy()
+    dropoff_dict = { home:[home] for home in list_of_homes_ind }
+    path = [starting_ind]
+    start = starting_ind
+    homes_remaining = set(list_of_homes_ind[:])
+    homes_remaining = list(homes_remaining)
+    while len(homes_remaining) > 0:
+        cur_short_path, targ_home = find_next_path_greedy(start, homes_remaining, shortest_path, shortest_path_length)
+        path.extend(cur_short_path[1:])
+        homes_remaining.remove(targ_home)
+        start = targ_home
+    final_path = nx.shortest_path(graph, start, starting_ind)
+    path.extend(final_path[1:])
 
+    return path, dropoff_dict
+
+
+
+
+
+
+
+
+
+
+
+    """
     mst = approximation.steinertree.steiner_tree(graph, [starting_ind] + list_of_homes_ind)
 
     # print("All mst nodes in homes list: " + str(all([home in list(mst.nodes) for home in list_of_homes_ind])))
@@ -102,6 +130,8 @@ def solve(list_of_locations, list_of_homes, starting_car_location, adjacency_mat
     # print(dropoff_dict)
     return nodes, dropoff_dict
 
+    """
+
 def remove_repeats(nodes):
     """might be a bit inefficient, should fix later"""
     have_seen = set()
@@ -129,6 +159,14 @@ def find_path(nodes, graph):
         prev_node = shortest_path[-1]
     final.extend(nx.shortest_path(graph, curr_node, nodes[0])[1:])
     return final
+
+def find_next_path_greedy(start, homes, shortest_path, shortest_path_length):
+        path_list = [(home, shortest_path_length[start][home]) for home in homes]
+        shortest = min(path_list, key=lambda x : x[1])[0]
+        return shortest_path[start][shortest], shortest #returns list of nodes and the home to remove
+
+
+
 
 def find_next_palindrome(nodes):
     result = []

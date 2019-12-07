@@ -1,5 +1,5 @@
-Essos Toffingburg Jakku Alethkar WitheredHeath Arkham TheSpine Endor MysticRuins MountOlympus Arcwallow Astapor Netherfort SerpantsPass TheHogsHead ShatteredPlains Alethkar WesternAirTemple FleaBottom TheWhompingWillow Karth Castamere Karth Yll Karth Newarre Karth BeyondtheWall Karth Carvahall RokusIsland TheCommonwealth HighGarden Accrington TheFae Urubaen BaSingSe Urubaen Boatwright Urubaen FireNation TheKrustyKrab Toperhagen TheKrustyKrab Duskhollow Neddingtown BayofDragons BikiniBottom BayofDragons RepublicCity Toperhagen Lockinge Toperhagen TheReshiIsles Toperhagen TheVale Toperhagen TheFae Atlantas Soda Beldenn Helgrind SatishVille Helgrind DuWeldenvarden TheWaystoneInn FlourishBlotts Gizton FlourishBlotts Bobbingbourne Hogsmead KoralReef Neddingtown TheCommonwealth KnifesEdge Meereen KnifesEdge TheGreatDivide KnifesEdge ProBendingArena Peterborough ThePrancingPony Ademre Naboo Bobbingbourne Omashu HighGarden TheGodswood HighGarden Ivormere Durnatel TheSpiritWorld Alderaan Jakku TheUnderworld Jakku CaveofTwoLovers Jakku Toffingburg Riverrun DiagonAlley Shinovar JarrensOutpost Mirkwood Severen DiagonAlley Sanlow Titferdenn Pendle Steeltown Grimbarrow TheChumBucket TheUnderworld Tartarus Westeros Riverrun Toffingburg Lorien Toffingburg JahKeved Peridrift Chrofall Peridrift TheEyrie Neddington TheEyrie Peridrift GooLagoon Hogwarts GooLagoon Keld Durnatel DiagonAlley Azir Peridrift Barkamsted Peridrift Blackwater Ebonfall MountOlympus Valyria ShriekingShack Trebon Glimthain Dragonstone Valyria Braavos Valyria Arrowcave KoralReef Ellesmera MountOlympus CastleBlack MountOlympus MadamMalkins Dubwall Toffingburg Aerodenn Toffingburg TheRiverStyx Essos
-94
+Essos Toffingburg Jakku Alethkar WesternAirTemple TheEyrie Peridrift Chrofall Castamere Karth TheWhompingWillow HighGarden Accrington TheFae Urubaen Dubwall Bobbingbourne ShriekingShack Valyria MountOlympus JahKeved Atlantas Alderaan KnifesEdge TheCommonwealth Lorien Meereen WitheredHeath Arkham TheSpine BeyondtheWall DiagonAlley Riverrun Steeltown Grimbarrow TheKrustyKrab Toperhagen DuWeldenvarden Helgrind Shinovar JarrensOutpost Keld GooLagoon Severen Winterfell Arcwallow Astapor Westeros Duskhollow Boatwright Aerodenn TheBoilingRock FireNation Penketh Yll Dragonstone BaSingSe Barkamsted Ademre Barkamsted Braavos Newarre Azir FlourishBlotts Gizton TheRiverStyx Tartarus TheUnderworld Neddingtown Bellechulish Trebon TheReshiIsles Tarbean Hogsmead KoralReef TheSpiritWorld RepublicCity TheGreatDivide IronIslands Vintas Neddington Kharbranth Hogwarts Sanlow ThePrancingPony Carvahall KoralReef Ellesmera Glimthain Batcave Glimthain Arrowcave Blackwater BikiniBottom Pendle Soda Glimthain Netherfort SerpantsPass CaveofTwoLovers TheHogsHead ShatteredPlains TheHogsHead FleaBottom SouthernAirTemple ProBendingArena KingsLanding Omashu Meereen CastleBlack Lockinge TheVale TheWaystoneInn Endor SatishVille TheChumBucket TheGodswood HighGarden Ivormere TheWall Essos
+100
 RepublicCity RepublicCity
 Arcwallow Arcwallow
 WitheredHeath WitheredHeath
@@ -10,11 +10,13 @@ Newarre Newarre
 Essos Essos
 Severen Severen
 ShatteredPlains ShatteredPlains
+Penketh Penketh
 Dubwall Dubwall
 Ellesmera Ellesmera
 Netherfort Netherfort
 Boatwright Boatwright
 Tartarus Tartarus
+Tarbean Tarbean
 TheFae TheFae
 Hogsmead Hogsmead
 TheCommonwealth TheCommonwealth
@@ -36,20 +38,22 @@ Valyria Valyria
 Westeros Westeros
 Arrowcave Arrowcave
 Astapor Astapor
-Castamere Castamere Tarbean Batcave
+Castamere Castamere
 Urubaen Urubaen
 Endor Endor
 JarrensOutpost JarrensOutpost
 TheSpine TheSpine
 TheChumBucket TheChumBucket
+TheBoilingRock TheBoilingRock
 TheWhompingWillow TheWhompingWillow
 TheGodswood TheGodswood
 Accrington Accrington
+Vintas Vintas
 BaSingSe BaSingSe
 Toperhagen Toperhagen
 TheReshiIsles TheReshiIsles
 JahKeved JahKeved
-Alethkar Alethkar Vintas Penketh TheBoilingRock
+Alethkar Alethkar
 BeyondtheWall BeyondtheWall
 Dragonstone Dragonstone
 Gizton Gizton
@@ -72,7 +76,7 @@ Neddingtown Neddingtown
 Lorien Lorien
 SatishVille SatishVille
 Jakku Jakku
-WesternAirTemple WesternAirTemple Winterfell
+WesternAirTemple WesternAirTemple
 GooLagoon GooLagoon
 FireNation FireNation
 Helgrind Helgrind
@@ -91,6 +95,8 @@ Karth Karth
 Aerodenn Aerodenn
 Meereen Meereen
 Arkham Arkham
+Winterfell Winterfell
+Batcave Batcave
 TheUnderworld TheUnderworld
 CastleBlack CastleBlack
 Riverrun Riverrun

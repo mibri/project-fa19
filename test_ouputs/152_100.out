@@ -1,5 +1,5 @@
-SaintPaul SanJose SanDiego ChulaVista Charlotte Phoenix Durham SantaAna Pittsburgh Philadelphia Oakland Wichita Baltimore Albuquerque FortWayne Anchorage Cleveland Honolulu BatonRouge FortWorth LongBeach Baltimore LongBeach Dallas Scottsdale Honolulu Memphis Honolulu Scottsdale Newark FortWayne OklahomaCity Cincinnati StPetersburg Milwaukee Columbus Glendale Hialeah OklahomaCity ElPaso Houston Stockton Houston VirginiaBeach StPetersburg Henderson StPetersburg Lubbock Austin JerseyCity Denver Detroit Tucson Raleigh Boston Orlando Lexington Fresno Plano LosAngeles ElPaso Austin SanAntonio Austin Aurora Austin ElPaso Chandler NewOrleans KansasCity Fresno Chesapeake Fresno Spokane Arlington Charlotte Lincoln Minneapolis Bakersfield OklahomaCity Toledo Atlanta Omaha Miami Laredo Miami Madison SanJose SaintPaul
-48
+SaintPaul SanJose SanDiego Dallas Tucson Raleigh Tucson VirginiaBeach Houston ElPaso Austin SanAntonio LongBeach FortWorth Wichita Charlotte Phoenix Columbus Milwaukee Stockton Seattle Denver JerseyCity Lexington Portland Tampa Toledo OklahomaCity Atlanta LasVegas Indianapolis Mesa Baltimore ChulaVista Honolulu Memphis Durham SantaAna Pittsburgh LosAngeles Bakersfield Minneapolis NewOrleans Chandler Plano Fresno Cincinnati StPetersburg Henderson Lincoln JerseyCity Laredo Cleveland Anchorage FortWayne Aurora FortWayne Newark Scottsdale Honolulu Lubbock Chesapeake Fresno Spokane Philadelphia SanFrancisco Madison Omaha Irvine Glendale Hialeah OklahomaCity Atlanta Oakland WinstonSalem Durham Toledo Cleveland SaintPaul
+50
 Newark Newark
 Plano Plano
 Scottsdale Scottsdale
@@ -12,12 +12,13 @@ FortWorth FortWorth
 Henderson Henderson
 Austin Austin
 FortWayne FortWayne
-Baltimore Baltimore Indianapolis
+Baltimore Baltimore
 Houston Houston
 Glendale Glendale
 Pittsburgh Pittsburgh
-SanDiego SanDiego Tampa
+SanDiego SanDiego
 Tucson Tucson
+WinstonSalem WinstonSalem
 SanJose SanJose
 SantaAna SantaAna
 Hialeah Hialeah
@@ -37,8 +38,10 @@ JerseyCity JerseyCity
 Phoenix Phoenix
 StPetersburg StPetersburg
 Chandler Chandler
+Indianapolis Indianapolis
 Lubbock Lubbock
 Bakersfield Bakersfield
+Tampa Tampa
 Anchorage Anchorage
 Raleigh Raleigh
 NewOrleans NewOrleans
@@ -47,4 +50,3 @@ ElPaso ElPaso
 Aurora Aurora
 Madison Madison
 Cincinnati Cincinnati
-Oakland WinstonSalem

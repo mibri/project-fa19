@@ -1,5 +1,9 @@
-a0 a1 a0 a3 c0 c1 c0 a3 c2 a3 a0 b4 b5 a0 b6 b7 b8 b9 a0 c7 a0 c9 a0 d1 c3 c5 c4 c5 c6 c5 d1 a0 e2 e4 c8 e4 e2 a0
-17
+a0 b4 b5 a0 b6 b7 b8 b9 a0 c7 a0 c9 a0 a1 b0 a1 b1 a1 b2 a1 b3 a1 a0 a3 c0 c1 c0 a3 c2 a3 a0 d1 c3 c5 c4 c5 c6 c5 d1 a0 e2 e4 c8 e4 e2 a0
+20
+b0 b0
+b1 b1
+b2 b2
+b3 b3
 b4 b4
 b5 b5
 b6 b6
@@ -16,4 +20,3 @@ c6 c6
 c7 c7
 c8 c8
 c9 c9
-a1 b0 b1 b2 b3

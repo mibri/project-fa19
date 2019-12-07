@@ -1,15 +1,18 @@
-zero two three four five twelve thirteen twenty twentyone fifteen twentytwo twentythree twentyfour twentythree twentytwo twentynine thirty twentynine thirtyfive thirtyfour thirtythree thirtyfour thirtyfive twentynine thirtysix thirtyseven thirtyeight thirtynine thirtyeight thirtyseven fortyfour fortyfive fortysix fortyseven fortyeight fortynine fortythree fortyfour fiftyone fifty fiftysix fiftyfive fiftysix fifty fiftyseven sixtythree sixtytwo sixtyone sixty sixtyseven sixtysix sixtyfive sixtyfour seventy sixtynine sixtyeight seventyfive seventysix seventyseven seventyone seventyeight seventynine eighty eightyone eightytwo eightyone eightyeight eightyseven eightyeight eightynine eightyeight ninetyfive eightyeight eightyone eightytwo eightythree eightyfour seventyseven seventy sixtythree fiftysix fifty fiftyone fiftytwo fiftythree fortysix thirtynine thirtytwo twentyfive eighteen eleven four zero six zero
-48
+zero two three four five six five twelve eleven ten seventeen twentyfour twentyfive twentysix thirtythree thirtyfour thirtyfive twentynine twentytwo fifteen eight fourteen thirteen twenty twentyseven thirtyfour fortyone fortyeight fortyseven forty thirtynine thirtyeight thirtyseven thirty twentynine thirtysix thirtyseven fortyfour fortyfive fortyfour fiftyone fifty fiftyseven sixtythree sixtytwo fiftyfive fiftyfour fiftythree sixty sixtyone sixtyeight sixtyseven sixtysix sixtyfive sixtyfour seventy seventyseven seventyone seventyeight seventynine eighty eightyone eightytwo seventyfive eightytwo eightynine eightyeight eightyseven eightyeight ninetyfive eightyeight eightyone eightytwo eightythree eightyfour seventyseven seventy sixtythree fiftysix fortynine fortytwo thirtyfive twentyeight twentyone fourteen seven zero
+50
 two two
-three three ten
+three three
 four four
 five five
 six six
+ten ten
 twelve twelve
+fourteen fourteen
 fifteen fifteen
 twenty twenty
 twentytwo twentytwo
-twentyfour twentyfour twentyfive
+twentyfour twentyfour
+twentyfive twentyfive
 twentynine twentynine
 thirty thirty
 thirtythree thirtythree
@@ -47,4 +50,3 @@ eightyseven eightyseven
 eightyeight eightyeight
 eightynine eightynine
 ninetyfive ninetyfive
-thirteen fourteen

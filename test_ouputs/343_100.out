@@ -1,5 +1,5 @@
-Soda Bechtel Cheit VLSB Giannini Jacobs Stern Bechtel Campbell Bowles EdwardsStadium McCone NorthGate Simon Stanley Boalt MLK DoeLibrary Pitzer Cory Dwinelle Etcheverry Soda GreekTheatre Haste Soda LifeSciences McLaughlin Soda KrutchTheater Hildebrand Soda Senior SproulPlaza Wheeler BarkerHall Blackwell ClarkKerr Foothill Soda HaasPavilion HearstFieldAnnex Hertz Insectary Koshland LeConte MemorialStadium Morgan Soda
-42
+Soda Bechtel Cheit Cory Dwinelle Boalt Etcheverry Haste Giannini GreekTheatre LifeSciences McLaughlin HearstMiningCircle Jacobs KrutchTheater Hildebrand MLK Moses Senior SproulPlaza Observatory Stern VLSB Wheeler BarkerHall Blackwell Campbell Bowles DoeLibrary EdwardsStadium ClarkKerr Foothill HearstFieldAnnex HaasPavilion Hertz Gilman Koshland Insectary LeConte MemorialStadium McCone NorthGate Pitzer Simon Morgan Stanley Bechtel Soda
+45
 Bechtel Bechtel
 Boalt Boalt
 Cheit Cheit
@@ -9,12 +9,15 @@ Etcheverry Etcheverry
 Giannini Giannini
 GreekTheatre GreekTheatre
 Haste Haste
+HearstMiningCircle HearstMiningCircle
 LifeSciences LifeSciences
 McLaughlin McLaughlin
 Jacobs Jacobs
 KrutchTheater KrutchTheater
 Hildebrand Hildebrand
 MLK MLK
+Moses Moses
+Observatory Observatory
 Senior Senior
 SproulPlaza SproulPlaza
 Stern Stern
@@ -28,6 +31,7 @@ ClarkKerr ClarkKerr
 DoeLibrary DoeLibrary
 EdwardsStadium EdwardsStadium
 Foothill Foothill
+Gilman Gilman
 HaasPavilion HaasPavilion
 HearstFieldAnnex HearstFieldAnnex
 Hertz Hertz
@@ -41,4 +45,3 @@ NorthGate NorthGate
 Pitzer Pitzer
 Simon Simon
 Stanley Stanley
-Soda HearstMiningCircle Moses Observatory Gilman
